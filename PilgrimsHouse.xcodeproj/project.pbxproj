@@ -19,6 +19,7 @@
 		3100DB0D2111E31000CFF78B /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DB082111E31000CFF78B /* UIViewController+Extension.swift */; };
 		3100DB0E2111E31000CFF78B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DB092111E31000CFF78B /* String+Extension.swift */; };
 		3100DB0F2111E31000CFF78B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DB0A2111E31000CFF78B /* Utils.swift */; };
+		3100DB11211253E200CFF78B /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3100DB102112525100CFF78B /* splash.mp4 */; };
 		4439537D43C00FA2CB8218F7 /* Pods_PilgrimsHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */; };
 		B9B016029247F795E31821BD /* Pods_PilgrimsHouseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231216318EE61E9DB6FE899F /* Pods_PilgrimsHouseTests.framework */; };
 		F3C4D5CB08A5054FD4174562 /* Pods_PilgrimsHouseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332BD92234CD2B4DF4AA5E6 /* Pods_PilgrimsHouseUITests.framework */; };
@@ -354,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3100DB11211253E200CFF78B /* splash.mp4 in Resources */,
 				3100DAD92111D24000CFF78B /* LaunchScreen.storyboard in Resources */,
 				3100DAD62111D24000CFF78B /* Assets.xcassets in Resources */,
 				3100DAD42111D23E00CFF78B /* Main.storyboard in Resources */,
@@ -645,6 +647,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P422QN8MZP;
 				INFOPLIST_FILE = "$(SRCROOT)/PilgrimsHouse/Supporting Files/Config/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -652,7 +655,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hajjhackathon.PilgrimsHouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -664,6 +667,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P422QN8MZP;
 				INFOPLIST_FILE = "$(SRCROOT)/PilgrimsHouse/Supporting Files/Config/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -671,7 +675,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hajjhackathon.PilgrimsHouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
