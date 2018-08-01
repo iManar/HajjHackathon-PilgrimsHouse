@@ -20,6 +20,21 @@
 		3100DB0E2111E31000CFF78B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DB092111E31000CFF78B /* String+Extension.swift */; };
 		3100DB0F2111E31000CFF78B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DB0A2111E31000CFF78B /* Utils.swift */; };
 		3100DB11211253E200CFF78B /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3100DB102112525100CFF78B /* splash.mp4 */; };
+		31717B9C21126E8400E06698 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717B9B21126E8400E06698 /* CustomTabBar.swift */; };
+		31717BA821126EFE00E06698 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31717B9F21126EFE00E06698 /* Localizable.strings */; };
+		31717BA921126EFE00E06698 /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BA121126EFE00E06698 /* ESTabBarItemMoreContentView.swift */; };
+		31717BAA21126EFE00E06698 /* ESTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BA221126EFE00E06698 /* ESTabBarController.swift */; };
+		31717BAB21126EFE00E06698 /* ESTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BA321126EFE00E06698 /* ESTabBarItemContentView.swift */; };
+		31717BAC21126EFE00E06698 /* ESTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BA421126EFE00E06698 /* ESTabBarItem.swift */; };
+		31717BAD21126EFE00E06698 /* ESTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BA521126EFE00E06698 /* ESTabBarItemBadgeView.swift */; };
+		31717BAE21126EFE00E06698 /* ESTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BA621126EFE00E06698 /* ESTabBar.swift */; };
+		31717BAF21126EFE00E06698 /* ESTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BA721126EFE00E06698 /* ESTabBarItemContainer.swift */; };
+		31717BB121126F7800E06698 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BB021126F7800E06698 /* HomeViewController.swift */; };
+		31717BB3211271F600E06698 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BB2211271F600E06698 /* CustomNavigationBar.swift */; };
+		31717BB62112729F00E06698 /* ExampleIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BB52112729F00E06698 /* ExampleIrregularityContentView.swift */; };
+		31717BB8211272AB00E06698 /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BB7211272AB00E06698 /* ExampleBouncesContentView.swift */; };
+		31717BBA211272C000E06698 /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BB9211272C000E06698 /* ExampleBasicContentView.swift */; };
+		31717BBD2112743400E06698 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31717BBC2112743400E06698 /* pop.framework */; };
 		4439537D43C00FA2CB8218F7 /* Pods_PilgrimsHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */; };
 		B9B016029247F795E31821BD /* Pods_PilgrimsHouseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231216318EE61E9DB6FE899F /* Pods_PilgrimsHouseTests.framework */; };
 		F3C4D5CB08A5054FD4174562 /* Pods_PilgrimsHouseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332BD92234CD2B4DF4AA5E6 /* Pods_PilgrimsHouseUITests.framework */; };
@@ -65,6 +80,21 @@
 		3100DB0A2111E31000CFF78B /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3100DB102112525100CFF78B /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
 		310304011355C558D315B523 /* Pods-PilgrimsHouseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseUITests/Pods-PilgrimsHouseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31717B9B21126E8400E06698 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		31717BA021126EFE00E06698 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		31717BA121126EFE00E06698 /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
+		31717BA221126EFE00E06698 /* ESTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarController.swift; sourceTree = "<group>"; };
+		31717BA321126EFE00E06698 /* ESTabBarItemContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContentView.swift; sourceTree = "<group>"; };
+		31717BA421126EFE00E06698 /* ESTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItem.swift; sourceTree = "<group>"; };
+		31717BA521126EFE00E06698 /* ESTabBarItemBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemBadgeView.swift; sourceTree = "<group>"; };
+		31717BA621126EFE00E06698 /* ESTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBar.swift; sourceTree = "<group>"; };
+		31717BA721126EFE00E06698 /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContainer.swift; sourceTree = "<group>"; };
+		31717BB021126F7800E06698 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		31717BB2211271F600E06698 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		31717BB52112729F00E06698 /* ExampleIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityContentView.swift; sourceTree = "<group>"; };
+		31717BB7211272AB00E06698 /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		31717BB9211272C000E06698 /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		31717BBC2112743400E06698 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pop.framework; sourceTree = "<group>"; };
 		39EA4117ABBED078E95852D7 /* Pods-PilgrimsHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse.release.xcconfig"; sourceTree = "<group>"; };
 		5E50AD7A1A51230D7D492A59 /* Pods-PilgrimsHouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseTests/Pods-PilgrimsHouseTests.release.xcconfig"; sourceTree = "<group>"; };
 		A0713628ED29363010377B1C /* Pods-PilgrimsHouseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseUITests/Pods-PilgrimsHouseUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31717BBD2112743400E06698 /* pop.framework in Frameworks */,
 				4439537D43C00FA2CB8218F7 /* Pods_PilgrimsHouse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +159,7 @@
 			children = (
 				3100DAD22111D23E00CFF78B /* Main.storyboard */,
 				3100DB002111DEEB00CFF78B /* Controllers */,
+				31717B9D21126EE100E06698 /* ThirdParties */,
 				3100DB032111E31000CFF78B /* Extensions */,
 				3100DAFC2111D91500CFF78B /* Supporting Files */,
 			);
@@ -191,7 +223,9 @@
 		3100DB002111DEEB00CFF78B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				31717BB42112729200E06698 /* TabBar */,
 				3100DB012111DEFD00CFF78B /* SplashViewController.swift */,
+				31717BB021126F7800E06698 /* HomeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -209,6 +243,8 @@
 			isa = PBXGroup;
 			children = (
 				3100DB052111E31000CFF78B /* UITableView+Extension.swift */,
+				31717B9B21126E8400E06698 /* CustomTabBar.swift */,
+				31717BB2211271F600E06698 /* CustomNavigationBar.swift */,
 			);
 			path = CommonUI;
 			sourceTree = "<group>";
@@ -222,6 +258,48 @@
 				3100DB0A2111E31000CFF78B /* Utils.swift */,
 			);
 			path = CommonUtils;
+			sourceTree = "<group>";
+		};
+		31717B9D21126EE100E06698 /* ThirdParties */ = {
+			isa = PBXGroup;
+			children = (
+				31717BBB2112743400E06698 /* Framework */,
+				31717B9E21126EFE00E06698 /* ESTabBar */,
+			);
+			path = ThirdParties;
+			sourceTree = "<group>";
+		};
+		31717B9E21126EFE00E06698 /* ESTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				31717B9F21126EFE00E06698 /* Localizable.strings */,
+				31717BA121126EFE00E06698 /* ESTabBarItemMoreContentView.swift */,
+				31717BA221126EFE00E06698 /* ESTabBarController.swift */,
+				31717BA321126EFE00E06698 /* ESTabBarItemContentView.swift */,
+				31717BA421126EFE00E06698 /* ESTabBarItem.swift */,
+				31717BA521126EFE00E06698 /* ESTabBarItemBadgeView.swift */,
+				31717BA621126EFE00E06698 /* ESTabBar.swift */,
+				31717BA721126EFE00E06698 /* ESTabBarItemContainer.swift */,
+			);
+			path = ESTabBar;
+			sourceTree = "<group>";
+		};
+		31717BB42112729200E06698 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				31717BB52112729F00E06698 /* ExampleIrregularityContentView.swift */,
+				31717BB7211272AB00E06698 /* ExampleBouncesContentView.swift */,
+				31717BB9211272C000E06698 /* ExampleBasicContentView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		31717BBB2112743400E06698 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				31717BBC2112743400E06698 /* pop.framework */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 		603EEFBB7608F1716005FB2B /* Frameworks */ = {
@@ -355,6 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31717BA821126EFE00E06698 /* Localizable.strings in Resources */,
 				3100DB11211253E200CFF78B /* splash.mp4 in Resources */,
 				3100DAD92111D24000CFF78B /* LaunchScreen.storyboard in Resources */,
 				3100DAD62111D24000CFF78B /* Assets.xcassets in Resources */,
@@ -464,13 +543,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31717BB62112729F00E06698 /* ExampleIrregularityContentView.swift in Sources */,
 				3100DACF2111D23E00CFF78B /* AppDelegate.swift in Sources */,
 				3100DB022111DEFD00CFF78B /* SplashViewController.swift in Sources */,
 				3100DB0B2111E31000CFF78B /* UITableView+Extension.swift in Sources */,
 				3100DB0F2111E31000CFF78B /* Utils.swift in Sources */,
+				31717BAC21126EFE00E06698 /* ESTabBarItem.swift in Sources */,
+				31717B9C21126E8400E06698 /* CustomTabBar.swift in Sources */,
 				3100DB0D2111E31000CFF78B /* UIViewController+Extension.swift in Sources */,
+				31717BAE21126EFE00E06698 /* ESTabBar.swift in Sources */,
 				3100DB0E2111E31000CFF78B /* String+Extension.swift in Sources */,
+				31717BAD21126EFE00E06698 /* ESTabBarItemBadgeView.swift in Sources */,
+				31717BAA21126EFE00E06698 /* ESTabBarController.swift in Sources */,
+				31717BB8211272AB00E06698 /* ExampleBouncesContentView.swift in Sources */,
+				31717BB121126F7800E06698 /* HomeViewController.swift in Sources */,
+				31717BB3211271F600E06698 /* CustomNavigationBar.swift in Sources */,
+				31717BAB21126EFE00E06698 /* ESTabBarItemContentView.swift in Sources */,
+				31717BBA211272C000E06698 /* ExampleBasicContentView.swift in Sources */,
 				3100DB0C2111E31000CFF78B /* Constants.swift in Sources */,
+				31717BA921126EFE00E06698 /* ESTabBarItemMoreContentView.swift in Sources */,
+				31717BAF21126EFE00E06698 /* ESTabBarItemContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +612,14 @@
 				3100DAD82111D24000CFF78B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		31717B9F21126EFE00E06698 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31717BA021126EFE00E06698 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -646,6 +746,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P422QN8MZP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PilgrimsHouse/ThirdParties/Framework",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/PilgrimsHouse/Supporting Files/Config/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -666,6 +770,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P422QN8MZP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PilgrimsHouse/ThirdParties/Framework",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/PilgrimsHouse/Supporting Files/Config/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
