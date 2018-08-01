@@ -10,8 +10,8 @@ target 'PilgrimsHouse' do
   pod 'SDWebImage'
   pod 'SCLAlertView'
   pod 'IQKeyboardManagerSwift'
-  
-  
+  pod 'Cosmos'
+  pod 'SwifterSwift'
   
   target 'PilgrimsHouseTests' do
     inherit! :search_paths
