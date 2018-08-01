@@ -6,6 +6,9 @@ target 'PilgrimsHouse' do
   use_frameworks!
 
   # Pods for PilgrimsHouse
+  pod 'Alamofire'
+  pod 'SDWebImage'
+  pod 'IQKeyboardManagerSwift'
 
   target 'PilgrimsHouseTests' do
     inherit! :search_paths
