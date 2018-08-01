@@ -56,7 +56,7 @@ class SplashViewController: UIViewController {
     
     @objc func playerDidFinishPlaying(note: NSNotification) {
         
-//        GenericMethods.pushView(identifier: "LoginViewController", storyboard: self.storyboard!, navController: self.navigationController!)
+        self.present(CustomTabBar.customIrregularityStyle(delegate: nil), animated: true, completion: nil)
     }
 
 }

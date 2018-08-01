@@ -22,7 +22,7 @@ class CustomNavigationBar: UINavigationController {
         self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.init(red: 38/255.0, green: 38/255.0, blue: 38/255.0, alpha: 1.0), NSFontAttributeName: UIFont.systemFont(ofSize: 16.0)];
         #endif
         self.navigationBar.tintColor = UIColor.init(red: 38/255.0, green: 38/255.0, blue: 38/255.0, alpha: 1.0)
-        self.navigationItem.title = "Example"
+        self.navigationItem.title = "بيت الحجيج"
     }
-    
+
 }

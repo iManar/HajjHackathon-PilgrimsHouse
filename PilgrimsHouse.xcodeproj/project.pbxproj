@@ -34,7 +34,6 @@
 		31717BB62112729F00E06698 /* ExampleIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BB52112729F00E06698 /* ExampleIrregularityContentView.swift */; };
 		31717BB8211272AB00E06698 /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BB7211272AB00E06698 /* ExampleBouncesContentView.swift */; };
 		31717BBA211272C000E06698 /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BB9211272C000E06698 /* ExampleBasicContentView.swift */; };
-		31717BBD2112743400E06698 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31717BBC2112743400E06698 /* pop.framework */; };
 		4439537D43C00FA2CB8218F7 /* Pods_PilgrimsHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */; };
 		B9B016029247F795E31821BD /* Pods_PilgrimsHouseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231216318EE61E9DB6FE899F /* Pods_PilgrimsHouseTests.framework */; };
 		F3C4D5CB08A5054FD4174562 /* Pods_PilgrimsHouseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332BD92234CD2B4DF4AA5E6 /* Pods_PilgrimsHouseUITests.framework */; };
@@ -94,7 +93,6 @@
 		31717BB52112729F00E06698 /* ExampleIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityContentView.swift; sourceTree = "<group>"; };
 		31717BB7211272AB00E06698 /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
 		31717BB9211272C000E06698 /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
-		31717BBC2112743400E06698 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pop.framework; sourceTree = "<group>"; };
 		39EA4117ABBED078E95852D7 /* Pods-PilgrimsHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse.release.xcconfig"; sourceTree = "<group>"; };
 		5E50AD7A1A51230D7D492A59 /* Pods-PilgrimsHouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseTests/Pods-PilgrimsHouseTests.release.xcconfig"; sourceTree = "<group>"; };
 		A0713628ED29363010377B1C /* Pods-PilgrimsHouseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseUITests/Pods-PilgrimsHouseUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31717BBD2112743400E06698 /* pop.framework in Frameworks */,
 				4439537D43C00FA2CB8218F7 /* Pods_PilgrimsHouse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +260,6 @@
 		31717B9D21126EE100E06698 /* ThirdParties */ = {
 			isa = PBXGroup;
 			children = (
-				31717BBB2112743400E06698 /* Framework */,
 				31717B9E21126EFE00E06698 /* ESTabBar */,
 			);
 			path = ThirdParties;
@@ -292,14 +288,6 @@
 				31717BB9211272C000E06698 /* ExampleBasicContentView.swift */,
 			);
 			path = TabBar;
-			sourceTree = "<group>";
-		};
-		31717BBB2112743400E06698 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				31717BBC2112743400E06698 /* pop.framework */,
-			);
-			path = Framework;
 			sourceTree = "<group>";
 		};
 		603EEFBB7608F1716005FB2B /* Frameworks */ = {
