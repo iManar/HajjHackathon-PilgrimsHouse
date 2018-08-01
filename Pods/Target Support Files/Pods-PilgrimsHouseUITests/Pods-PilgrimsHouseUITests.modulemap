@@ -1,0 +1,6 @@
+framework module Pods_PilgrimsHouseUITests {
+  umbrella header "Pods-PilgrimsHouseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

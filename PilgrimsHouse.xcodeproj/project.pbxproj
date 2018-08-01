@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3100DACF2111D23E00CFF78B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DACE2111D23E00CFF78B /* AppDelegate.swift */; };
-		3100DAD12111D23E00CFF78B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DAD02111D23E00CFF78B /* ViewController.swift */; };
 		3100DAD42111D23E00CFF78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3100DAD22111D23E00CFF78B /* Main.storyboard */; };
 		3100DAD62111D24000CFF78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3100DAD52111D24000CFF78B /* Assets.xcassets */; };
 		3100DAD92111D24000CFF78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3100DAD72111D24000CFF78B /* LaunchScreen.storyboard */; };
 		3100DAE42111D24000CFF78B /* PilgrimsHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DAE32111D24000CFF78B /* PilgrimsHouseTests.swift */; };
 		3100DAEF2111D24000CFF78B /* PilgrimsHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DAEE2111D24000CFF78B /* PilgrimsHouseUITests.swift */; };
+		4439537D43C00FA2CB8218F7 /* Pods_PilgrimsHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */; };
+		B9B016029247F795E31821BD /* Pods_PilgrimsHouseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231216318EE61E9DB6FE899F /* Pods_PilgrimsHouseTests.framework */; };
+		F3C4D5CB08A5054FD4174562 /* Pods_PilgrimsHouseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332BD92234CD2B4DF4AA5E6 /* Pods_PilgrimsHouseUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		231216318EE61E9DB6FE899F /* Pods_PilgrimsHouseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PilgrimsHouseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB31AC3DAA60580810E10C5 /* Pods-PilgrimsHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse.debug.xcconfig"; sourceTree = "<group>"; };
 		3100DACB2111D23E00CFF78B /* PilgrimsHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PilgrimsHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3100DACE2111D23E00CFF78B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3100DAD02111D23E00CFF78B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3100DAD32111D23E00CFF78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3100DAD52111D24000CFF78B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3100DAD82111D24000CFF78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,13 @@
 		3100DAEA2111D24000CFF78B /* PilgrimsHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PilgrimsHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3100DAEE2111D24000CFF78B /* PilgrimsHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilgrimsHouseUITests.swift; sourceTree = "<group>"; };
 		3100DAF02111D24000CFF78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310304011355C558D315B523 /* Pods-PilgrimsHouseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseUITests/Pods-PilgrimsHouseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		39EA4117ABBED078E95852D7 /* Pods-PilgrimsHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse.release.xcconfig"; sourceTree = "<group>"; };
+		5E50AD7A1A51230D7D492A59 /* Pods-PilgrimsHouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseTests/Pods-PilgrimsHouseTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0713628ED29363010377B1C /* Pods-PilgrimsHouseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseUITests/Pods-PilgrimsHouseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PilgrimsHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA69EAC6970F68E8BF583714 /* Pods-PilgrimsHouseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseTests/Pods-PilgrimsHouseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C332BD92234CD2B4DF4AA5E6 /* Pods_PilgrimsHouseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PilgrimsHouseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4439537D43C00FA2CB8218F7 /* Pods_PilgrimsHouse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B016029247F795E31821BD /* Pods_PilgrimsHouseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C4D5CB08A5054FD4174562 /* Pods_PilgrimsHouseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,8 @@
 				3100DAE22111D24000CFF78B /* PilgrimsHouseTests */,
 				3100DAED2111D24000CFF78B /* PilgrimsHouseUITests */,
 				3100DACC2111D23E00CFF78B /* Products */,
+				EB8AB2F9C355C8DF9A8E9B58 /* Pods */,
+				603EEFBB7608F1716005FB2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +112,8 @@
 		3100DACD2111D23E00CFF78B /* PilgrimsHouse */ = {
 			isa = PBXGroup;
 			children = (
-				3100DACE2111D23E00CFF78B /* AppDelegate.swift */,
-				3100DAD02111D23E00CFF78B /* ViewController.swift */,
 				3100DAD22111D23E00CFF78B /* Main.storyboard */,
-				3100DAD52111D24000CFF78B /* Assets.xcassets */,
-				3100DAD72111D24000CFF78B /* LaunchScreen.storyboard */,
-				3100DADA2111D24000CFF78B /* Info.plist */,
+				3100DAFC2111D91500CFF78B /* Supporting Files */,
 			);
 			path = PilgrimsHouse;
 			sourceTree = "<group>";
@@ -125,6 +136,64 @@
 			path = PilgrimsHouseUITests;
 			sourceTree = "<group>";
 		};
+		3100DAFC2111D91500CFF78B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3100DACE2111D23E00CFF78B /* AppDelegate.swift */,
+				3100DAFD2111D92700CFF78B /* Fonts */,
+				3100DAFE2111D94000CFF78B /* Config */,
+				3100DAFF2111D94D00CFF78B /* Resources */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3100DAFD2111D92700CFF78B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3100DAFE2111D94000CFF78B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3100DADA2111D24000CFF78B /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3100DAFF2111D94D00CFF78B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3100DAD72111D24000CFF78B /* LaunchScreen.storyboard */,
+				3100DAD52111D24000CFF78B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		603EEFBB7608F1716005FB2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */,
+				231216318EE61E9DB6FE899F /* Pods_PilgrimsHouseTests.framework */,
+				C332BD92234CD2B4DF4AA5E6 /* Pods_PilgrimsHouseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB8AB2F9C355C8DF9A8E9B58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AB31AC3DAA60580810E10C5 /* Pods-PilgrimsHouse.debug.xcconfig */,
+				39EA4117ABBED078E95852D7 /* Pods-PilgrimsHouse.release.xcconfig */,
+				BA69EAC6970F68E8BF583714 /* Pods-PilgrimsHouseTests.debug.xcconfig */,
+				5E50AD7A1A51230D7D492A59 /* Pods-PilgrimsHouseTests.release.xcconfig */,
+				310304011355C558D315B523 /* Pods-PilgrimsHouseUITests.debug.xcconfig */,
+				A0713628ED29363010377B1C /* Pods-PilgrimsHouseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3100DAF32111D24000CFF78B /* Build configuration list for PBXNativeTarget "PilgrimsHouse" */;
 			buildPhases = (
+				00A1D301E75D60603A5936CA /* [CP] Check Pods Manifest.lock */,
 				3100DAC72111D23E00CFF78B /* Sources */,
 				3100DAC82111D23E00CFF78B /* Frameworks */,
 				3100DAC92111D23E00CFF78B /* Resources */,
@@ -149,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3100DAF62111D24000CFF78B /* Build configuration list for PBXNativeTarget "PilgrimsHouseTests" */;
 			buildPhases = (
+				6AD11386CFBA07074C814B9C /* [CP] Check Pods Manifest.lock */,
 				3100DADB2111D24000CFF78B /* Sources */,
 				3100DADC2111D24000CFF78B /* Frameworks */,
 				3100DADD2111D24000CFF78B /* Resources */,
@@ -167,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3100DAF92111D24000CFF78B /* Build configuration list for PBXNativeTarget "PilgrimsHouseUITests" */;
 			buildPhases = (
+				44181D61662BD5A073058787 /* [CP] Check Pods Manifest.lock */,
 				3100DAE62111D24000CFF78B /* Sources */,
 				3100DAE72111D24000CFF78B /* Frameworks */,
 				3100DAE82111D24000CFF78B /* Resources */,
@@ -251,12 +323,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00A1D301E75D60603A5936CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PilgrimsHouse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44181D61662BD5A073058787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PilgrimsHouseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AD11386CFBA07074C814B9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PilgrimsHouseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3100DAC72111D23E00CFF78B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3100DAD12111D23E00CFF78B /* ViewController.swift in Sources */,
 				3100DACF2111D23E00CFF78B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +556,7 @@
 		};
 		3100DAF42111D24000CFF78B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB31AC3DAA60580810E10C5 /* Pods-PilgrimsHouse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +575,7 @@
 		};
 		3100DAF52111D24000CFF78B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EA4117ABBED078E95852D7 /* Pods-PilgrimsHouse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +594,7 @@
 		};
 		3100DAF72111D24000CFF78B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA69EAC6970F68E8BF583714 /* Pods-PilgrimsHouseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +616,7 @@
 		};
 		3100DAF82111D24000CFF78B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E50AD7A1A51230D7D492A59 /* Pods-PilgrimsHouseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +638,7 @@
 		};
 		3100DAFA2111D24000CFF78B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310304011355C558D315B523 /* Pods-PilgrimsHouseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +659,7 @@
 		};
 		3100DAFB2111D24000CFF78B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0713628ED29363010377B1C /* Pods-PilgrimsHouseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
