@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3100DACF2111D23E00CFF78B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DACE2111D23E00CFF78B /* AppDelegate.swift */; };
+		3100DAD12111D23E00CFF78B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DAD02111D23E00CFF78B /* ViewController.swift */; };
+		3100DAD42111D23E00CFF78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3100DAD22111D23E00CFF78B /* Main.storyboard */; };
+		3100DAD62111D24000CFF78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3100DAD52111D24000CFF78B /* Assets.xcassets */; };
+		3100DAD92111D24000CFF78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3100DAD72111D24000CFF78B /* LaunchScreen.storyboard */; };
+		3100DAE42111D24000CFF78B /* PilgrimsHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DAE32111D24000CFF78B /* PilgrimsHouseTests.swift */; };
+		3100DAEF2111D24000CFF78B /* PilgrimsHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DAEE2111D24000CFF78B /* PilgrimsHouseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3100DAE02111D24000CFF78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3100DAC32111D23E00CFF78B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3100DACA2111D23E00CFF78B;
+			remoteInfo = PilgrimsHouse;
+		};
+		3100DAEB2111D24000CFF78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3100DAC32111D23E00CFF78B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3100DACA2111D23E00CFF78B;
+			remoteInfo = PilgrimsHouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3100DACB2111D23E00CFF78B /* PilgrimsHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PilgrimsHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3100DACE2111D23E00CFF78B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3100DAD02111D23E00CFF78B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3100DAD32111D23E00CFF78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3100DAD52111D24000CFF78B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3100DAD82111D24000CFF78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3100DADA2111D24000CFF78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3100DADF2111D24000CFF78B /* PilgrimsHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PilgrimsHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3100DAE32111D24000CFF78B /* PilgrimsHouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilgrimsHouseTests.swift; sourceTree = "<group>"; };
+		3100DAE52111D24000CFF78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3100DAEA2111D24000CFF78B /* PilgrimsHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PilgrimsHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3100DAEE2111D24000CFF78B /* PilgrimsHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilgrimsHouseUITests.swift; sourceTree = "<group>"; };
+		3100DAF02111D24000CFF78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3100DAC82111D23E00CFF78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3100DADC2111D24000CFF78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3100DAE72111D24000CFF78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3100DAC22111D23E00CFF78B = {
+			isa = PBXGroup;
+			children = (
+				3100DACD2111D23E00CFF78B /* PilgrimsHouse */,
+				3100DAE22111D24000CFF78B /* PilgrimsHouseTests */,
+				3100DAED2111D24000CFF78B /* PilgrimsHouseUITests */,
+				3100DACC2111D23E00CFF78B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3100DACC2111D23E00CFF78B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3100DACB2111D23E00CFF78B /* PilgrimsHouse.app */,
+				3100DADF2111D24000CFF78B /* PilgrimsHouseTests.xctest */,
+				3100DAEA2111D24000CFF78B /* PilgrimsHouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3100DACD2111D23E00CFF78B /* PilgrimsHouse */ = {
+			isa = PBXGroup;
+			children = (
+				3100DACE2111D23E00CFF78B /* AppDelegate.swift */,
+				3100DAD02111D23E00CFF78B /* ViewController.swift */,
+				3100DAD22111D23E00CFF78B /* Main.storyboard */,
+				3100DAD52111D24000CFF78B /* Assets.xcassets */,
+				3100DAD72111D24000CFF78B /* LaunchScreen.storyboard */,
+				3100DADA2111D24000CFF78B /* Info.plist */,
+			);
+			path = PilgrimsHouse;
+			sourceTree = "<group>";
+		};
+		3100DAE22111D24000CFF78B /* PilgrimsHouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				3100DAE32111D24000CFF78B /* PilgrimsHouseTests.swift */,
+				3100DAE52111D24000CFF78B /* Info.plist */,
+			);
+			path = PilgrimsHouseTests;
+			sourceTree = "<group>";
+		};
+		3100DAED2111D24000CFF78B /* PilgrimsHouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3100DAEE2111D24000CFF78B /* PilgrimsHouseUITests.swift */,
+				3100DAF02111D24000CFF78B /* Info.plist */,
+			);
+			path = PilgrimsHouseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3100DACA2111D23E00CFF78B /* PilgrimsHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3100DAF32111D24000CFF78B /* Build configuration list for PBXNativeTarget "PilgrimsHouse" */;
+			buildPhases = (
+				3100DAC72111D23E00CFF78B /* Sources */,
+				3100DAC82111D23E00CFF78B /* Frameworks */,
+				3100DAC92111D23E00CFF78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PilgrimsHouse;
+			productName = PilgrimsHouse;
+			productReference = 3100DACB2111D23E00CFF78B /* PilgrimsHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3100DADE2111D24000CFF78B /* PilgrimsHouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3100DAF62111D24000CFF78B /* Build configuration list for PBXNativeTarget "PilgrimsHouseTests" */;
+			buildPhases = (
+				3100DADB2111D24000CFF78B /* Sources */,
+				3100DADC2111D24000CFF78B /* Frameworks */,
+				3100DADD2111D24000CFF78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3100DAE12111D24000CFF78B /* PBXTargetDependency */,
+			);
+			name = PilgrimsHouseTests;
+			productName = PilgrimsHouseTests;
+			productReference = 3100DADF2111D24000CFF78B /* PilgrimsHouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3100DAE92111D24000CFF78B /* PilgrimsHouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3100DAF92111D24000CFF78B /* Build configuration list for PBXNativeTarget "PilgrimsHouseUITests" */;
+			buildPhases = (
+				3100DAE62111D24000CFF78B /* Sources */,
+				3100DAE72111D24000CFF78B /* Frameworks */,
+				3100DAE82111D24000CFF78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3100DAEC2111D24000CFF78B /* PBXTargetDependency */,
+			);
+			name = PilgrimsHouseUITests;
+			productName = PilgrimsHouseUITests;
+			productReference = 3100DAEA2111D24000CFF78B /* PilgrimsHouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3100DAC32111D23E00CFF78B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Manar Magdy";
+				TargetAttributes = {
+					3100DACA2111D23E00CFF78B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3100DADE2111D24000CFF78B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3100DACA2111D23E00CFF78B;
+					};
+					3100DAE92111D24000CFF78B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3100DACA2111D23E00CFF78B;
+					};
+				};
+			};
+			buildConfigurationList = 3100DAC62111D23E00CFF78B /* Build configuration list for PBXProject "PilgrimsHouse" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3100DAC22111D23E00CFF78B;
+			productRefGroup = 3100DACC2111D23E00CFF78B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3100DACA2111D23E00CFF78B /* PilgrimsHouse */,
+				3100DADE2111D24000CFF78B /* PilgrimsHouseTests */,
+				3100DAE92111D24000CFF78B /* PilgrimsHouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3100DAC92111D23E00CFF78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3100DAD92111D24000CFF78B /* LaunchScreen.storyboard in Resources */,
+				3100DAD62111D24000CFF78B /* Assets.xcassets in Resources */,
+				3100DAD42111D23E00CFF78B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3100DADD2111D24000CFF78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3100DAE82111D24000CFF78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3100DAC72111D23E00CFF78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3100DAD12111D23E00CFF78B /* ViewController.swift in Sources */,
+				3100DACF2111D23E00CFF78B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3100DADB2111D24000CFF78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3100DAE42111D24000CFF78B /* PilgrimsHouseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3100DAE62111D24000CFF78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3100DAEF2111D24000CFF78B /* PilgrimsHouseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3100DAE12111D24000CFF78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3100DACA2111D23E00CFF78B /* PilgrimsHouse */;
+			targetProxy = 3100DAE02111D24000CFF78B /* PBXContainerItemProxy */;
+		};
+		3100DAEC2111D24000CFF78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3100DACA2111D23E00CFF78B /* PilgrimsHouse */;
+			targetProxy = 3100DAEB2111D24000CFF78B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3100DAD22111D23E00CFF78B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3100DAD32111D23E00CFF78B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3100DAD72111D24000CFF78B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3100DAD82111D24000CFF78B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3100DAF12111D24000CFF78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3100DAF22111D24000CFF78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3100DAF42111D24000CFF78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P422QN8MZP;
+				INFOPLIST_FILE = PilgrimsHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hajjhackathon.PilgrimsHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3100DAF52111D24000CFF78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P422QN8MZP;
+				INFOPLIST_FILE = PilgrimsHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hajjhackathon.PilgrimsHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3100DAF72111D24000CFF78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P422QN8MZP;
+				INFOPLIST_FILE = PilgrimsHouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hajjhackathon.PilgrimsHouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PilgrimsHouse.app/PilgrimsHouse";
+			};
+			name = Debug;
+		};
+		3100DAF82111D24000CFF78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P422QN8MZP;
+				INFOPLIST_FILE = PilgrimsHouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hajjhackathon.PilgrimsHouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PilgrimsHouse.app/PilgrimsHouse";
+			};
+			name = Release;
+		};
+		3100DAFA2111D24000CFF78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P422QN8MZP;
+				INFOPLIST_FILE = PilgrimsHouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hajjhackathon.PilgrimsHouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PilgrimsHouse;
+			};
+			name = Debug;
+		};
+		3100DAFB2111D24000CFF78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P422QN8MZP;
+				INFOPLIST_FILE = PilgrimsHouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hajjhackathon.PilgrimsHouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PilgrimsHouse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3100DAC62111D23E00CFF78B /* Build configuration list for PBXProject "PilgrimsHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3100DAF12111D24000CFF78B /* Debug */,
+				3100DAF22111D24000CFF78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3100DAF32111D24000CFF78B /* Build configuration list for PBXNativeTarget "PilgrimsHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3100DAF42111D24000CFF78B /* Debug */,
+				3100DAF52111D24000CFF78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3100DAF62111D24000CFF78B /* Build configuration list for PBXNativeTarget "PilgrimsHouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3100DAF72111D24000CFF78B /* Debug */,
+				3100DAF82111D24000CFF78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3100DAF92111D24000CFF78B /* Build configuration list for PBXNativeTarget "PilgrimsHouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3100DAFA2111D24000CFF78B /* Debug */,
+				3100DAFB2111D24000CFF78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3100DAC32111D23E00CFF78B /* Project object */;
+}
