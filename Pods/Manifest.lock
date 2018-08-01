@@ -1,3 +1,50 @@
-PODFILE CHECKSUM: 35dc26443e33f33c466f1c37ac9081f0d83a0fe0
+PODS:
+  - Alamofire (4.7.2)
+  - Cosmos (16.0.0)
+  - IQKeyboardManagerSwift (6.0.4)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - SwifterSwift (4.4.0):
+    - SwifterSwift/AppKit (= 4.4.0)
+    - SwifterSwift/CoreGraphics (= 4.4.0)
+    - SwifterSwift/CoreLocation (= 4.4.0)
+    - SwifterSwift/Foundation (= 4.4.0)
+    - SwifterSwift/MapKit (= 4.4.0)
+    - SwifterSwift/SpriteKit (= 4.4.0)
+    - SwifterSwift/SwiftStdlib (= 4.4.0)
+    - SwifterSwift/UIKit (= 4.4.0)
+  - SwifterSwift/AppKit (4.4.0)
+  - SwifterSwift/CoreGraphics (4.4.0)
+  - SwifterSwift/CoreLocation (4.4.0)
+  - SwifterSwift/Foundation (4.4.0)
+  - SwifterSwift/MapKit (4.4.0)
+  - SwifterSwift/SpriteKit (4.4.0)
+  - SwifterSwift/SwiftStdlib (4.4.0)
+  - SwifterSwift/UIKit (4.4.0)
 
-COCOAPODS: 1.5.2
+DEPENDENCIES:
+  - Alamofire
+  - Cosmos
+  - IQKeyboardManagerSwift
+  - SDWebImage
+  - SwifterSwift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Cosmos
+    - IQKeyboardManagerSwift
+    - SDWebImage
+    - SwifterSwift
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Cosmos: 7bcee0fa858a9355a214f2a181be5dffcee42c81
+  IQKeyboardManagerSwift: 36dbe324b4f9793f5f41ba5227f3e7c76dfefd50
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  SwifterSwift: 1ce0e31801ddd3a2bd3256626275425adb01067a
+
+PODFILE CHECKSUM: de2ce9ee0cfc5b0b69eecb27a753554a9746f78b
+
+COCOAPODS: 1.5.0

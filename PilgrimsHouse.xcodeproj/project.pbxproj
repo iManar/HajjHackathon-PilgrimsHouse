@@ -20,6 +20,10 @@
 		3100DB0E2111E31000CFF78B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DB092111E31000CFF78B /* String+Extension.swift */; };
 		3100DB0F2111E31000CFF78B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DB0A2111E31000CFF78B /* Utils.swift */; };
 		4439537D43C00FA2CB8218F7 /* Pods_PilgrimsHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */; };
+		9AEC4E8B2112528200C66D29 /* HomeTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AEC4E8A2112528200C66D29 /* HomeTableCellView.xib */; };
+		9AEC4E8E2112669A00C66D29 /* BestSellingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AEC4E8D2112669A00C66D29 /* BestSellingTableViewCell.xib */; };
+		9AEC4E92211274A900C66D29 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E91211274A900C66D29 /* HomeTableViewCell.swift */; };
+		9AEC4E94211275A900C66D29 /* BestSellingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E93211275A900C66D29 /* BestSellingTableViewCell.swift */; };
 		B9B016029247F795E31821BD /* Pods_PilgrimsHouseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231216318EE61E9DB6FE899F /* Pods_PilgrimsHouseTests.framework */; };
 		F3C4D5CB08A5054FD4174562 /* Pods_PilgrimsHouseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332BD92234CD2B4DF4AA5E6 /* Pods_PilgrimsHouseUITests.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +69,10 @@
 		310304011355C558D315B523 /* Pods-PilgrimsHouseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseUITests/Pods-PilgrimsHouseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		39EA4117ABBED078E95852D7 /* Pods-PilgrimsHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse.release.xcconfig"; sourceTree = "<group>"; };
 		5E50AD7A1A51230D7D492A59 /* Pods-PilgrimsHouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseTests/Pods-PilgrimsHouseTests.release.xcconfig"; sourceTree = "<group>"; };
+		9AEC4E8A2112528200C66D29 /* HomeTableCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableCellView.xib; sourceTree = "<group>"; };
+		9AEC4E8D2112669A00C66D29 /* BestSellingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BestSellingTableViewCell.xib; sourceTree = "<group>"; };
+		9AEC4E91211274A900C66D29 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		9AEC4E93211275A900C66D29 /* BestSellingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellingTableViewCell.swift; sourceTree = "<group>"; };
 		A0713628ED29363010377B1C /* Pods-PilgrimsHouseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseUITests/Pods-PilgrimsHouseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PilgrimsHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA69EAC6970F68E8BF583714 /* Pods-PilgrimsHouseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseTests/Pods-PilgrimsHouseTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,9 +132,11 @@
 		3100DACD2111D23E00CFF78B /* PilgrimsHouse */ = {
 			isa = PBXGroup;
 			children = (
-				3100DAD22111D23E00CFF78B /* Main.storyboard */,
+				9AEC4E8C2112531500C66D29 /* Models */,
+				9A33B27D2112515600DE1B9D /* Views */,
 				3100DB002111DEEB00CFF78B /* Controllers */,
 				3100DB032111E31000CFF78B /* Extensions */,
+				9A33B27E211251A200DE1B9D /* StoryBoard */,
 				3100DAFC2111D91500CFF78B /* Supporting Files */,
 			);
 			path = PilgrimsHouse;
@@ -154,18 +164,10 @@
 			isa = PBXGroup;
 			children = (
 				3100DACE2111D23E00CFF78B /* AppDelegate.swift */,
-				3100DAFD2111D92700CFF78B /* Fonts */,
 				3100DAFE2111D94000CFF78B /* Config */,
 				3100DAFF2111D94D00CFF78B /* Resources */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3100DAFD2111D92700CFF78B /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 		3100DAFE2111D94000CFF78B /* Config */ = {
@@ -231,6 +233,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9A33B27D2112515600DE1B9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AEC4E892112526700C66D29 /* HomeCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A33B27E211251A200DE1B9D /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				3100DAD22111D23E00CFF78B /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		9AEC4E892112526700C66D29 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				9AEC4E8A2112528200C66D29 /* HomeTableCellView.xib */,
+				9AEC4E8D2112669A00C66D29 /* BestSellingTableViewCell.xib */,
+				9AEC4E91211274A900C66D29 /* HomeTableViewCell.swift */,
+				9AEC4E93211275A900C66D29 /* BestSellingTableViewCell.swift */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		9AEC4E8C2112531500C66D29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EB8AB2F9C355C8DF9A8E9B58 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +291,7 @@
 				3100DAC72111D23E00CFF78B /* Sources */,
 				3100DAC82111D23E00CFF78B /* Frameworks */,
 				3100DAC92111D23E00CFF78B /* Resources */,
+				CD9263E9771AF1CCD5C9F0B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -353,6 +390,8 @@
 			files = (
 				3100DAD92111D24000CFF78B /* LaunchScreen.storyboard in Resources */,
 				3100DAD62111D24000CFF78B /* Assets.xcassets in Resources */,
+				9AEC4E8E2112669A00C66D29 /* BestSellingTableViewCell.xib in Resources */,
+				9AEC4E8B2112528200C66D29 /* HomeTableCellView.xib in Resources */,
 				3100DAD42111D23E00CFF78B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +467,32 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CD9263E9771AF1CCD5C9F0B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -436,11 +501,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3100DACF2111D23E00CFF78B /* AppDelegate.swift in Sources */,
+				9AEC4E94211275A900C66D29 /* BestSellingTableViewCell.swift in Sources */,
 				3100DB022111DEFD00CFF78B /* SplashViewController.swift in Sources */,
 				3100DB0B2111E31000CFF78B /* UITableView+Extension.swift in Sources */,
 				3100DB0F2111E31000CFF78B /* Utils.swift in Sources */,
 				3100DB0D2111E31000CFF78B /* UIViewController+Extension.swift in Sources */,
 				3100DB0E2111E31000CFF78B /* String+Extension.swift in Sources */,
+				9AEC4E92211274A900C66D29 /* HomeTableViewCell.swift in Sources */,
 				3100DB0C2111E31000CFF78B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,8 +683,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P422QN8MZP;
-				INFOPLIST_FILE = PilgrimsHouse/Info.plist;
+				DEVELOPMENT_TEAM = MAG9DAS3TQ;
+				INFOPLIST_FILE = "$(SRCROOT)/PilgrimsHouse/Supporting Files/Config/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -635,8 +703,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P422QN8MZP;
-				INFOPLIST_FILE = PilgrimsHouse/Info.plist;
+				DEVELOPMENT_TEAM = MAG9DAS3TQ;
+				INFOPLIST_FILE = "$(SRCROOT)/PilgrimsHouse/Supporting Files/Config/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
