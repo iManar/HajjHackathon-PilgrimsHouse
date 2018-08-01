@@ -8,8 +8,11 @@ target 'PilgrimsHouse' do
   # Pods for PilgrimsHouse
   pod 'Alamofire'
   pod 'SDWebImage'
+  pod 'SCLAlertView'
   pod 'IQKeyboardManagerSwift'
-
+  
+  
+  
   target 'PilgrimsHouseTests' do
     inherit! :search_paths
     # Pods for testing
