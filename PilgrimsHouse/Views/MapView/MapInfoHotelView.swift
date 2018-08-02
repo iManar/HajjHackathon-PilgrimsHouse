@@ -14,7 +14,8 @@ class MapInfoHotelView: HCMapInfoView {
     @IBOutlet weak var hotelImg: UIImageView!
     @IBOutlet weak var hotelName: UILabel!
     @IBOutlet weak var location: UILabel!
-   
+    @IBOutlet weak var travelTimeLabel: UILabel!
+    
     func update(withAnnotation annotation:HCAnnotation)
     {
         self.hotelName.text = annotation.title
