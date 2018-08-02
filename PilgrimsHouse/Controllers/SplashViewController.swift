@@ -17,10 +17,6 @@ class SplashViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        if UserDefaults.standard.object(forKey: "remember_user") != nil && (UserDefaults.standard.object(forKey: "remember_user")) as! Bool  {
-//            GenericMethods.pushView(identifier: "LoginViewController", storyboard: self.storyboard!, navController: self.navigationController!)
-//            return
-//        }
         playSplashVideo()
     }
 
