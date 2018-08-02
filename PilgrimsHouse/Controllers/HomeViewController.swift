@@ -10,9 +10,16 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    var houses:[Data] = []
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        HomeServiceManager().getHouses {[weak self] (response, error)  in 
+            if error == nil
+            {
+                self?.houses = (response?.data)!
+            }
+        }
         // Do any additional setup after loading the view.
     }
 

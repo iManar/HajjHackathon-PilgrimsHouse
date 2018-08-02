@@ -39,6 +39,13 @@
 		31EB38D921128ADE00F449B7 /* BestSellingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31EB38D221128ADE00F449B7 /* BestSellingTableViewCell.xib */; };
 		31EB38DA21128ADE00F449B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31EB38D421128ADE00F449B7 /* Main.storyboard */; };
 		4439537D43C00FA2CB8218F7 /* Pods_PilgrimsHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */; };
+		9AEC4E9A21128E1200C66D29 /* HouseDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E9821128E1200C66D29 /* HouseDataResponse.swift */; };
+		9AEC4E9B21128E1200C66D29 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E9921128E1200C66D29 /* Data.swift */; };
+		9AEC4E9F21128ECC00C66D29 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E9E21128ECC00C66D29 /* ServiceProvider.swift */; };
+		9AEC4EA121128F2B00C66D29 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4EA021128F2A00C66D29 /* Reachability.swift */; };
+		9AEC4EA421128FCA00C66D29 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4EA321128FCA00C66D29 /* Helper.swift */; };
+		9AEC4EA6211291C100C66D29 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4EA5211291C100C66D29 /* Constant.swift */; };
+		9AEC4EA82112925800C66D29 /* HomeServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4EA72112925800C66D29 /* HomeServiceManager.swift */; };
 		B9B016029247F795E31821BD /* Pods_PilgrimsHouseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231216318EE61E9DB6FE899F /* Pods_PilgrimsHouseTests.framework */; };
 		F3C4D5CB08A5054FD4174562 /* Pods_PilgrimsHouseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332BD92234CD2B4DF4AA5E6 /* Pods_PilgrimsHouseUITests.framework */; };
 /* End PBXBuildFile section */
@@ -103,6 +110,13 @@
 		31EB38D521128ADE00F449B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39EA4117ABBED078E95852D7 /* Pods-PilgrimsHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse.release.xcconfig"; sourceTree = "<group>"; };
 		5E50AD7A1A51230D7D492A59 /* Pods-PilgrimsHouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseTests/Pods-PilgrimsHouseTests.release.xcconfig"; sourceTree = "<group>"; };
+		9AEC4E9821128E1200C66D29 /* HouseDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseDataResponse.swift; sourceTree = "<group>"; };
+		9AEC4E9921128E1200C66D29 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		9AEC4E9E21128ECC00C66D29 /* ServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		9AEC4EA021128F2A00C66D29 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		9AEC4EA321128FCA00C66D29 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		9AEC4EA5211291C100C66D29 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		9AEC4EA72112925800C66D29 /* HomeServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceManager.swift; sourceTree = "<group>"; };
 		A0713628ED29363010377B1C /* Pods-PilgrimsHouseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseUITests/Pods-PilgrimsHouseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PilgrimsHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA69EAC6970F68E8BF583714 /* Pods-PilgrimsHouseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseTests/Pods-PilgrimsHouseTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -162,7 +176,11 @@
 		3100DACD2111D23E00CFF78B /* PilgrimsHouse */ = {
 			isa = PBXGroup;
 			children = (
+				9AEC4EA221128FBF00C66D29 /* Utils */,
+				9AEC4E9D21128EAA00C66D29 /* ServiceProvider */,
+				9AEC4E9C21128E8500C66D29 /* ServiceManager */,
 				31EB38D321128ADE00F449B7 /* StoryBoard */,
+				9AEC4E9621128DF800C66D29 /* Model */,
 				31EB38CD21128ADE00F449B7 /* Views */,
 				3100DB002111DEEB00CFF78B /* Controllers */,
 				31717B9D21126EE100E06698 /* ThirdParties */,
@@ -334,6 +352,49 @@
 				C332BD92234CD2B4DF4AA5E6 /* Pods_PilgrimsHouseUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AEC4E9621128DF800C66D29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AEC4E9721128E0500C66D29 /* Home */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AEC4E9721128E0500C66D29 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9AEC4E9921128E1200C66D29 /* Data.swift */,
+				9AEC4E9821128E1200C66D29 /* HouseDataResponse.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9AEC4E9C21128E8500C66D29 /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				9AEC4EA72112925800C66D29 /* HomeServiceManager.swift */,
+			);
+			path = ServiceManager;
+			sourceTree = "<group>";
+		};
+		9AEC4E9D21128EAA00C66D29 /* ServiceProvider */ = {
+			isa = PBXGroup;
+			children = (
+				9AEC4E9E21128ECC00C66D29 /* ServiceProvider.swift */,
+				9AEC4EA021128F2A00C66D29 /* Reachability.swift */,
+			);
+			path = ServiceProvider;
+			sourceTree = "<group>";
+		};
+		9AEC4EA221128FBF00C66D29 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9AEC4EA321128FCA00C66D29 /* Helper.swift */,
+				9AEC4EA5211291C100C66D29 /* Constant.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		EB8AB2F9C355C8DF9A8E9B58 /* Pods */ = {
@@ -548,8 +609,11 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JDropDownAlert/JDropDownAlert.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -557,8 +621,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JDropDownAlert.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -578,13 +645,19 @@
 				3100DB022111DEFD00CFF78B /* SplashViewController.swift in Sources */,
 				3100DB0B2111E31000CFF78B /* UITableView+Extension.swift in Sources */,
 				3100DB0F2111E31000CFF78B /* Utils.swift in Sources */,
+				9AEC4EA421128FCA00C66D29 /* Helper.swift in Sources */,
 				31717BAC21126EFE00E06698 /* ESTabBarItem.swift in Sources */,
+				9AEC4EA6211291C100C66D29 /* Constant.swift in Sources */,
 				31717B9C21126E8400E06698 /* CustomTabBar.swift in Sources */,
+				9AEC4E9B21128E1200C66D29 /* Data.swift in Sources */,
 				3100DB0D2111E31000CFF78B /* UIViewController+Extension.swift in Sources */,
 				31717BAE21126EFE00E06698 /* ESTabBar.swift in Sources */,
 				31EB38D621128ADE00F449B7 /* HomeTableViewCell.swift in Sources */,
 				3100DB0E2111E31000CFF78B /* String+Extension.swift in Sources */,
+				9AEC4EA121128F2B00C66D29 /* Reachability.swift in Sources */,
+				9AEC4EA82112925800C66D29 /* HomeServiceManager.swift in Sources */,
 				31717BAD21126EFE00E06698 /* ESTabBarItemBadgeView.swift in Sources */,
+				9AEC4E9A21128E1200C66D29 /* HouseDataResponse.swift in Sources */,
 				31717BAA21126EFE00E06698 /* ESTabBarController.swift in Sources */,
 				31717BB8211272AB00E06698 /* ExampleBouncesContentView.swift in Sources */,
 				31717BB121126F7800E06698 /* HomeViewController.swift in Sources */,
@@ -592,6 +665,7 @@
 				31717BAB21126EFE00E06698 /* ESTabBarItemContentView.swift in Sources */,
 				31717BBA211272C000E06698 /* ExampleBasicContentView.swift in Sources */,
 				31EB38D821128ADE00F449B7 /* BestSellingTableViewCell.swift in Sources */,
+				9AEC4E9F21128ECC00C66D29 /* ServiceProvider.swift in Sources */,
 				3100DB0C2111E31000CFF78B /* Constants.swift in Sources */,
 				31717BA921126EFE00E06698 /* ESTabBarItemMoreContentView.swift in Sources */,
 				31717BAF21126EFE00E06698 /* ESTabBarItemContainer.swift in Sources */,
@@ -777,7 +851,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P422QN8MZP;
+				DEVELOPMENT_TEAM = MAG9DAS3TQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PilgrimsHouse/ThirdParties/Framework",
@@ -801,7 +875,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P422QN8MZP;
+				DEVELOPMENT_TEAM = MAG9DAS3TQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PilgrimsHouse/ThirdParties/Framework",

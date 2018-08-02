@@ -12,7 +12,11 @@ target 'PilgrimsHouse' do
   pod 'IQKeyboardManagerSwift'
   pod 'Cosmos'
   pod 'SwifterSwift'
-  
+  pod 'ObjectMapper'
+  pod 'SVProgressHUD'
+  pod 'SCLAlertView'
+  pod 'JDropDownAlert'
+
   target 'PilgrimsHouseTests' do
     inherit! :search_paths
     # Pods for testing
