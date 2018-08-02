@@ -53,6 +53,9 @@
 		9A91614C21133FBC00CAC262 /* MapInfoHotelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91614A21133FBC00CAC262 /* MapInfoHotelView.swift */; };
 		9A91614F21133FF700CAC262 /* HotelMapDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91614E21133FF700CAC262 /* HotelMapDetailsView.swift */; };
 		9A916151211357E500CAC262 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A916150211357E500CAC262 /* Owner.swift */; };
+		9A91615321135A2900CAC262 /* Details.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A91615221135A2900CAC262 /* Details.storyboard */; };
+		9A91615621135A6700CAC262 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91615521135A6700CAC262 /* DetailsViewController.swift */; };
+		9A9161592113716600CAC262 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9161582113716600CAC262 /* DetailsTableViewCell.swift */; };
 		9AEC4E9A21128E1200C66D29 /* HouseDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E9821128E1200C66D29 /* HouseDataResponse.swift */; };
 		9AEC4E9B21128E1200C66D29 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E9921128E1200C66D29 /* Data.swift */; };
 		9AEC4E9F21128ECC00C66D29 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E9E21128ECC00C66D29 /* ServiceProvider.swift */; };
@@ -138,6 +141,9 @@
 		9A91614A21133FBC00CAC262 /* MapInfoHotelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapInfoHotelView.swift; sourceTree = "<group>"; };
 		9A91614E21133FF700CAC262 /* HotelMapDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelMapDetailsView.swift; sourceTree = "<group>"; };
 		9A916150211357E500CAC262 /* Owner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		9A91615221135A2900CAC262 /* Details.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Details.storyboard; sourceTree = "<group>"; };
+		9A91615521135A6700CAC262 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9A9161582113716600CAC262 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
 		9AEC4E9821128E1200C66D29 /* HouseDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseDataResponse.swift; sourceTree = "<group>"; };
 		9AEC4E9921128E1200C66D29 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		9AEC4E9E21128ECC00C66D29 /* ServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
@@ -280,6 +286,7 @@
 		3100DB002111DEEB00CFF78B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9A91615421135A5300CAC262 /* Details */,
 				31717BB42112729200E06698 /* TabBar */,
 				3100DB012111DEFD00CFF78B /* SplashViewController.swift */,
 				31EB38EF2112A15500F449B7 /* MeViewController.swift */,
@@ -357,6 +364,7 @@
 		31EB38CD21128ADE00F449B7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9A9161572113714E00CAC262 /* Details */,
 				9A91614821133FBC00CAC262 /* MapView */,
 				31EB38CE21128ADE00F449B7 /* HomeCell */,
 			);
@@ -379,6 +387,7 @@
 			children = (
 				31EB38D421128ADE00F449B7 /* Main.storyboard */,
 				9A91614421133BFE00CAC262 /* Map.storyboard */,
+				9A91615221135A2900CAC262 /* Details.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -408,6 +417,22 @@
 				9A91614E21133FF700CAC262 /* HotelMapDetailsView.swift */,
 			);
 			path = MapModelView;
+			sourceTree = "<group>";
+		};
+		9A91615421135A5300CAC262 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				9A91615521135A6700CAC262 /* DetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		9A9161572113714E00CAC262 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				9A9161582113716600CAC262 /* DetailsTableViewCell.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 		9AEC4E9621128DF800C66D29 /* Model */ = {
@@ -586,6 +611,7 @@
 				9A91614521133BFE00CAC262 /* Map.storyboard in Resources */,
 				31EB38DA21128ADE00F449B7 /* Main.storyboard in Resources */,
 				31717BA821126EFE00E06698 /* Localizable.strings in Resources */,
+				9A91615321135A2900CAC262 /* Details.storyboard in Resources */,
 				31EB38D921128ADE00F449B7 /* BestSellingTableViewCell.xib in Resources */,
 				3100DAD92111D24000CFF78B /* LaunchScreen.storyboard in Resources */,
 				3100DAD62111D24000CFF78B /* Assets.xcassets in Resources */,
@@ -717,6 +743,7 @@
 				31EB38F02112A15500F449B7 /* MeViewController.swift in Sources */,
 				3100DB0F2111E31000CFF78B /* Utils.swift in Sources */,
 				9AEC4EA421128FCA00C66D29 /* Helper.swift in Sources */,
+				9A91615621135A6700CAC262 /* DetailsViewController.swift in Sources */,
 				31717BAC21126EFE00E06698 /* ESTabBarItem.swift in Sources */,
 				9AEC4EA6211291C100C66D29 /* Constant.swift in Sources */,
 				31717B9C21126E8400E06698 /* CustomTabBar.swift in Sources */,
@@ -742,6 +769,7 @@
 				31717BBA211272C000E06698 /* ExampleBasicContentView.swift in Sources */,
 				31EB38D821128ADE00F449B7 /* BestSellingTableViewCell.swift in Sources */,
 				9AEC4E9F21128ECC00C66D29 /* ServiceProvider.swift in Sources */,
+				9A9161592113716600CAC262 /* DetailsTableViewCell.swift in Sources */,
 				3100DB0C2111E31000CFF78B /* Constants.swift in Sources */,
 				31717BA921126EFE00E06698 /* ESTabBarItemMoreContentView.swift in Sources */,
 				31717BAF21126EFE00E06698 /* ESTabBarItemContainer.swift in Sources */,

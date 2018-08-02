@@ -14,26 +14,26 @@ class MapViewController: UIViewController {
 
     @IBOutlet weak var map: MKMapView!
     var roomLocation: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 40.759011, longitude: -73.984472)
-    
+    let kaabaLocation = CLLocationCoordinate2D(latitude: 21.422487, longitude:39.826206)
+    let arafaatLocation = CLLocationCoordinate2D(latitude: 21.422487, longitude:39.9841)
+    let menaLocation = CLLocationCoordinate2D(latitude: 21.4146, longitude:39.8946)
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let KaabaLocation = CLLocationCoordinate2D(latitude: 21.422487, longitude:39.826206)
-        let ArafaatLocation = CLLocationCoordinate2D(latitude: 21.422487, longitude:39.9841)
-        let MenaLocation = CLLocationCoordinate2D(latitude: 21.4146, longitude:39.8946)
 
         
         // Do any additional setup after loading the view.
-        map.addAnnotation(HotelMapDetailsView(hotelName:"مكه المكرمه", hotelLocation:"الكعبه", coordinate:KaabaLocation, image:#imageLiteral(resourceName: "ka3ba")))
+        map.addAnnotation(HotelMapDetailsView(hotelName:"مكه المكرمه", hotelLocation:"الكعبه", coordinate:kaabaLocation))
 
-        map.addAnnotation(HotelMapDetailsView(hotelName:"مكه المكرمه", hotelLocation:"جبل عرفات ", coordinate:ArafaatLocation, image:#imageLiteral(resourceName: "araaft")))
+        map.addAnnotation(HotelMapDetailsView(hotelName:"مكه المكرمه", hotelLocation:"جبل عرفات ", coordinate:arafaatLocation))
         
-        map.addAnnotation(HotelMapDetailsView(hotelName:"مكه المكرمه", hotelLocation:"منا ", coordinate:MenaLocation, image:#imageLiteral(resourceName: "araaft")))
+        map.addAnnotation(HotelMapDetailsView(hotelName:"مكه المكرمه", hotelLocation:"مِنى", coordinate:menaLocation))
 
     
-        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: KaabaLocation)
-        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: ArafaatLocation)
-        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: MenaLocation)
+        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: kaabaLocation)
+        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: arafaatLocation)
+        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: menaLocation)
 
     }
  
@@ -52,12 +52,44 @@ extension MapViewController : MKMapViewDelegate
         
         if let view = annotation as? HotelMapDetailsView
         {
-            return HCAnnotationView.hcCreatePin(forMap: mapView, forAnnotation: annotation, withPinImage:#imageLiteral(resourceName: "location-icon"), withReuseIdentifier:"location", withClass: MapInfoHotelView.self, mapInfoViewName: "MapInfoHotelView", showInfoViewHandler: {infoView in
-                if let redView = infoView as? MapInfoHotelView
-                {
-                    redView.update(withHotel: view)
-                }
-            })
+            
+            
+            if annotation.coordinate.latitude == kaabaLocation.latitude &&   annotation.coordinate.longitude == kaabaLocation.longitude
+            {
+                return HCAnnotationView.hcCreatePin(forMap: mapView, forAnnotation: annotation, withPinImage:#imageLiteral(resourceName: "kaaba-icon"), withReuseIdentifier:"location", withClass: MapInfoHotelView.self, mapInfoViewName: "MapInfoHotelView", showInfoViewHandler: {infoView in
+                    if let redView = infoView as? MapInfoHotelView
+                    {
+                        redView.update(withHotel: view)
+                    }
+                })
+            }
+            else if annotation.coordinate.latitude == arafaatLocation.latitude &&   annotation.coordinate.longitude == arafaatLocation.longitude
+            {
+                return HCAnnotationView.hcCreatePin(forMap: mapView, forAnnotation: annotation, withPinImage:#imageLiteral(resourceName: "araafat-icon"), withReuseIdentifier:"location", withClass: MapInfoHotelView.self, mapInfoViewName: "MapInfoHotelView", showInfoViewHandler: {infoView in
+                    if let redView = infoView as? MapInfoHotelView
+                    {
+                        redView.update(withHotel: view)
+                    }
+                })
+            }
+            else if annotation.coordinate.latitude == menaLocation.latitude &&   annotation.coordinate.longitude == menaLocation.longitude
+            {
+                return HCAnnotationView.hcCreatePin(forMap: mapView, forAnnotation: annotation, withPinImage:#imageLiteral(resourceName: "mena-icon"), withReuseIdentifier:"location", withClass: MapInfoHotelView.self, mapInfoViewName: "MapInfoHotelView", showInfoViewHandler: {infoView in
+                    if let redView = infoView as? MapInfoHotelView
+                    {
+                        redView.update(withHotel: view)
+                    }
+                })
+            }
+            else
+            {
+                return HCAnnotationView.hcCreatePin(forMap: mapView, forAnnotation: annotation, withPinImage:#imageLiteral(resourceName: "location-icon"), withReuseIdentifier:"location", withClass: MapInfoHotelView.self, mapInfoViewName: "MapInfoHotelView", showInfoViewHandler: {infoView in
+                    if let redView = infoView as? MapInfoHotelView
+                    {
+                        redView.update(withHotel: view)
+                    }
+                })
+            }
         }
         
         // Create classic pin which cant show custom info view, it will show native callout
@@ -113,7 +145,6 @@ extension MapViewController : MKMapViewDelegate
             }
             
             let route = response.routes[0]
-            
             self.map.add((route.polyline), level: MKOverlayLevel.aboveRoads)
             
             let rect = route.polyline.boundingMapRect

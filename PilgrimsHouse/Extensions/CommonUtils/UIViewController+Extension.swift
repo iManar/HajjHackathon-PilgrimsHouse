@@ -25,6 +25,7 @@ enum AppStoryboard : String {
     
     case Main
     case Map
+     case Details
     
     var instance : UIStoryboard {
         return UIStoryboard(name: self.rawValue, bundle: Bundle.main)

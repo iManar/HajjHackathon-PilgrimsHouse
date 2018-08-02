@@ -11,7 +11,6 @@ import HCMapInfoView
 
 class MapInfoHotelView: HCMapInfoView {
 
-    @IBOutlet weak var hotelImg: UIImageView!
     @IBOutlet weak var hotelName: UILabel!
     @IBOutlet weak var location: UILabel!
    
@@ -26,7 +25,6 @@ class MapInfoHotelView: HCMapInfoView {
     {
         self.update(withAnnotation: hotel)
         self.hotelName.text = hotel.hotelName
-        self.hotelImg.image = hotel.image
         self.location.text = hotel.hotelLocation
     }
 
