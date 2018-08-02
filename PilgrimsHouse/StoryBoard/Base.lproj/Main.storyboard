@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -45,6 +46,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GGZ-Ca-aLd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="189.59999999999999" y="-560.86956521739137"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="DhM-yo-9UW">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="rfR-sg-45E" customClass="HomeViewController" customModule="PilgrimsHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1LY-pS-bbE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="58" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7QC-2H-QND">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="rfR-sg-45E" id="VeP-co-6wL"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7QC-2H-QND" firstAttribute="trailing" secondItem="H8s-eC-1Le" secondAttribute="trailing" id="AFq-1j-bK7"/>
+                            <constraint firstItem="H8s-eC-1Le" firstAttribute="bottom" secondItem="7QC-2H-QND" secondAttribute="bottom" id="K0l-Og-LZm"/>
+                            <constraint firstItem="7QC-2H-QND" firstAttribute="leading" secondItem="H8s-eC-1Le" secondAttribute="leading" id="Rpt-0l-buq"/>
+                            <constraint firstItem="7QC-2H-QND" firstAttribute="top" secondItem="H8s-eC-1Le" secondAttribute="top" id="Twx-Ue-98C"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="H8s-eC-1Le"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="7QC-2H-QND" id="6z9-cf-Jnj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rwi-ZD-PeE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189.59999999999999" y="185.75712143928038"/>
         </scene>
     </scenes>
 </document>
