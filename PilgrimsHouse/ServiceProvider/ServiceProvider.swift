@@ -16,21 +16,23 @@ class ServiceProvider {
         
         let manager = Alamofire.SessionManager.default
         manager.session.configuration.timeoutIntervalForRequest = 60
-        
-        manager.request(URLString, method: method, parameters: parameters, encoding: paramEncoding!, headers: headers).responseJSON { (response) in
+       
+        guard let pathUrl = URL(string: URLString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!) else { return }
+            
+        manager.request(pathUrl, method: method, parameters: parameters, encoding: paramEncoding!, headers: headers).responseJSON { (response) in
             debugPrint("Request: \(String(describing: response.request))")
             debugPrint("Headers: \(String(describing: response.request?.allHTTPHeaderFields))")
             if method == .post  || method == .put {
                 print("Body Paramters: \(NSString(data: (response.request?.httpBody)!, encoding: String.Encoding.utf8.rawValue) ?? "")")
             }
             
-            debugPrint("Response: \(String(describing: response.result.value))")
+//            debugPrint("Response: \(String(describing: response.result.value))")
             
-            debugPrint("Error: \(String(describing: response.error))")
+//            debugPrint("Error: \(String(describing: response.error))")
             
             NotificationCenter.default.addObserver(self, selector: #selector(self.statusManager), name: .flagsChanged, object: Network.reachability)
-            if self.updateUserInterface() {
-                
+//            if self.updateUserInterface() {
+            
                 switch(response.result) {
                     
                 case .success(_):
@@ -41,17 +43,13 @@ class ServiceProvider {
                             
                         }
                     
-                case .failure(let error):
-                    
-                   
-                        Helper.showFloatAlert(title: "حدث خطا", subTitle: "", type: Constants.AlertType.AlertError)
-                     
-                    
+                case .failure(_):
+                    Helper.showFloatAlert(title: "حدث خطا", subTitle: "", type: Constants.AlertType.AlertError)
                     break
                     
                 }
                 
-            }
+//            }
         }
         
     }

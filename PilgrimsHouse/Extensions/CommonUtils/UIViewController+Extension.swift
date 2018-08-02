@@ -7,9 +7,9 @@
 //
 
 import UIKit
+import NVActivityIndicatorView
 
-
-extension UIViewController {
+extension UIViewController: NVActivityIndicatorViewable {
     
     class var viewControllerIdentifier : String {
         return "\(self)"
@@ -18,6 +18,19 @@ extension UIViewController {
         
         return appStoryboard.viewController(viewControllerClass: self)
     }
+    
+    func addLoadingView()  {
+        DispatchQueue.main.async {
+            let size = CGSize(width: 30, height: 30)
+            NVActivityIndicatorView.DEFAULT_COLOR = UIColor.Primary
+            self.startAnimating(size, message: "", type: NVActivityIndicatorType(rawValue: 12)!)
+        }
+    }
+    
+    func removeLoadingView() {
+        self.stopAnimating()
+    }
+    
 }
 
 

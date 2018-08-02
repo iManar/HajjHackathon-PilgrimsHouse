@@ -8,7 +8,9 @@
 
 import UIKit
 
-class HomeTableViewCell: UITableViewCell {
+class HomeTableCellView: UITableViewCell {
+    
+    
     @IBOutlet weak var houseImg: UIImageView!
     @IBOutlet weak var adName: UILabel!
     @IBOutlet weak var houseType: UILabel!

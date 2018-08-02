@@ -17,10 +17,27 @@ class SplashViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        playSplashVideo()
-//        self.present(CustomTabBar.customIrregularityStyle(delegate: nil), animated: true, completion: nil)
+        setAppleLAnguageTo(lang: "ar")
+//        playSplashVideo()
+        self.present(CustomTabBar.customIrregularityStyle(delegate: nil), animated: true, completion: nil)
     }
 
+    let APPLE_LANGUAGE_KEY = "AppleLanguages"
+    
+    func setAppleLAnguageTo(lang: String) {
+        let userdef = UserDefaults.standard
+        userdef.set([lang,currentAppleLanguage()], forKey: APPLE_LANGUAGE_KEY)
+        userdef.synchronize()
+    }
+    
+    func currentAppleLanguage() -> String{
+        let userdef = UserDefaults.standard
+        let langArray = userdef.object(forKey: APPLE_LANGUAGE_KEY) as! NSArray
+        let current = langArray.firstObject as! String
+        let endIndex = current.startIndex
+        let currentWithoutLocale = current.substring(to: current.index(endIndex, offsetBy: 2))
+        return currentWithoutLocale
+    }
     
     private func playSplashVideo() {
         

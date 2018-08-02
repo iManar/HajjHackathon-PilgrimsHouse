@@ -3,6 +3,9 @@ PODS:
   - Cosmos (16.0.0)
   - IQKeyboardManagerSwift (6.1.1)
   - JDropDownAlert (1.3.0)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
   - ObjectMapper (3.3.0)
   - SCLAlertView (0.8)
   - SDWebImage (4.4.2):
@@ -32,6 +35,7 @@ DEPENDENCIES:
   - Cosmos
   - IQKeyboardManagerSwift
   - JDropDownAlert
+  - NVActivityIndicatorView
   - ObjectMapper
   - SCLAlertView
   - SDWebImage
@@ -39,11 +43,12 @@ DEPENDENCIES:
   - SwifterSwift
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Alamofire
     - Cosmos
     - IQKeyboardManagerSwift
     - JDropDownAlert
+    - NVActivityIndicatorView
     - ObjectMapper
     - SCLAlertView
     - SDWebImage
@@ -55,12 +60,13 @@ SPEC CHECKSUMS:
   Cosmos: 7bcee0fa858a9355a214f2a181be5dffcee42c81
   IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
   JDropDownAlert: fd2aec99b685cb35530283b34f36c7cb46d44170
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
   ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwifterSwift: 1ce0e31801ddd3a2bd3256626275425adb01067a
 
-PODFILE CHECKSUM: 53f75e9e38d2c66b67595420b456fb2a1e961e33
+PODFILE CHECKSUM: 9406560049cae0200cef7c05404c4f4ba2f9950e
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.2
