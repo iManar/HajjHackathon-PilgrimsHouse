@@ -58,20 +58,20 @@
                                                 </constraints>
                                                 <state key="normal" image="favorite-unselected"/>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="اسم الاعلان" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcv-t6-KIp">
-                                                <rect key="frame" x="180.5" y="61" width="74.5" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="اسم الاعلان" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="bcv-t6-KIp">
+                                                <rect key="frame" x="53" y="61" width="202" height="19"/>
                                                 <fontDescription key="fontDescription" name="DINNextLTArabic-Medium" family="DIN Next LT Arabic" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="٤ كم من موقعك الحالي" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clZ-Gg-poQ">
-                                                <rect key="frame" x="114.5" y="90.5" width="117.5" height="19.5"/>
+                                                <rect key="frame" x="129" y="87.5" width="103" height="15.5"/>
                                                 <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="13"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuQ-fy-cdw">
-                                                <rect key="frame" x="240" y="93" width="15" height="15"/>
+                                                <rect key="frame" x="240" y="88" width="15" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="VSz-LR-j1T"/>
                                                     <constraint firstAttribute="width" constant="15" id="z2n-UD-ubB"/>
@@ -79,13 +79,13 @@
                                                 <state key="normal" image="location-icon"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="غرفه فرديه" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygB-lv-6Aq">
-                                                <rect key="frame" x="177.5" y="113" width="54.5" height="19.5"/>
+                                                <rect key="frame" x="187" y="110" width="45" height="15.5"/>
                                                 <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="13"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svh-AH-A5l">
-                                                <rect key="frame" x="240" y="116" width="15" height="15"/>
+                                                <rect key="frame" x="240" y="111" width="15" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="65e-Uz-2x6"/>
                                                     <constraint firstAttribute="width" constant="15" id="SsW-sU-QJA"/>
@@ -100,7 +100,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" ambiguous="YES" text="١٠ ريال سعودي" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQe-1b-xoa">
-                                                <rect key="frame" x="179" y="144.5" width="76" height="20.5"/>
+                                                <rect key="frame" x="182" y="144.5" width="73" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="13"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -125,6 +125,7 @@
                                             <constraint firstItem="MQe-1b-xoa" firstAttribute="top" secondItem="hye-O6-gT6" secondAttribute="bottom" constant="8" id="iK9-wB-vKM"/>
                                             <constraint firstAttribute="trailing" secondItem="PUj-L7-cU0" secondAttribute="trailing" constant="16" id="xGg-kJ-GpO"/>
                                             <constraint firstItem="svh-AH-A5l" firstAttribute="top" secondItem="cuQ-fy-cdw" secondAttribute="bottom" constant="8" id="xpm-H1-jGE"/>
+                                            <constraint firstItem="bcv-t6-KIp" firstAttribute="leading" secondItem="oiU-Oh-7LX" secondAttribute="trailing" constant="8" id="xpr-eV-t1Q"/>
                                             <constraint firstItem="hye-O6-gT6" firstAttribute="top" secondItem="svh-AH-A5l" secondAttribute="bottom" constant="8" id="xu7-Nt-9Uu"/>
                                             <constraint firstItem="cuQ-fy-cdw" firstAttribute="trailing" secondItem="bcv-t6-KIp" secondAttribute="trailing" id="ynk-F3-QFo"/>
                                         </constraints>
@@ -155,13 +156,13 @@
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اسم البائع" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jT7-pe-gtm">
-                                                <rect key="frame" x="208.5" y="10" width="62.5" height="24"/>
+                                                <rect key="frame" x="213" y="10" width="58" height="19"/>
                                                 <fontDescription key="fontDescription" name="DINNextLTArabic-Medium" family="DIN Next LT Arabic" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rim-zA-W6X" customClass="CosmosView" customModule="Cosmos">
-                                                <rect key="frame" x="151" y="42" width="120" height="20"/>
+                                                <rect key="frame" x="151" y="37" width="120" height="20"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="120" id="1UD-Et-skE"/>
@@ -169,7 +170,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="عرضت في ٢١ ذي الحجه   " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="its-XC-q1v">
-                                                <rect key="frame" x="145.5" y="70" width="125.5" height="19.5"/>
+                                                <rect key="frame" x="147" y="65" width="124" height="15.5"/>
                                                 <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="13"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -260,7 +261,7 @@
     </objects>
     <resources>
         <image name="default" width="153" height="128"/>
-        <image name="favorite-unselected" width="32" height="32"/>
+        <image name="favorite-unselected" width="16" height="16"/>
         <image name="location-icon" width="32" height="32"/>
         <image name="single-room-icon" width="42" height="42"/>
     </resources>

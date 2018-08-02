@@ -36,6 +36,9 @@
 		316F695921138DDF00661F7C /* MapInfoHotelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F695721138DDF00661F7C /* MapInfoHotelView.swift */; };
 		316F695B21138DEE00661F7C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F695A21138DEE00661F7C /* MapViewController.swift */; };
 		316F695D21139AF700661F7C /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 316F695C21139AC500661F7C /* splash.mp4 */; };
+		316F696021139D5600661F7C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F695F21139D5600661F7C /* DetailsViewController.swift */; };
+		316F696321139D5E00661F7C /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F696221139D5E00661F7C /* DetailsTableViewCell.swift */; };
+		316F69652113A07B00661F7C /* Details.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316F69642113A07B00661F7C /* Details.storyboard */; };
 		31717B9C21126E8400E06698 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717B9B21126E8400E06698 /* CustomTabBar.swift */; };
 		31717BA821126EFE00E06698 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31717B9F21126EFE00E06698 /* Localizable.strings */; };
 		31717BA921126EFE00E06698 /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BA121126EFE00E06698 /* ESTabBarItemMoreContentView.swift */; };
@@ -127,6 +130,9 @@
 		316F695721138DDF00661F7C /* MapInfoHotelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapInfoHotelView.swift; sourceTree = "<group>"; };
 		316F695A21138DEE00661F7C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		316F695C21139AC500661F7C /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
+		316F695F21139D5600661F7C /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		316F696221139D5E00661F7C /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		316F69642113A07B00661F7C /* Details.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Details.storyboard; sourceTree = "<group>"; };
 		31717B9B21126E8400E06698 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		31717BA021126EFE00E06698 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		31717BA121126EFE00E06698 /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
@@ -296,6 +302,7 @@
 		3100DB002111DEEB00CFF78B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				316F695E21139D5600661F7C /* Details */,
 				316F695A21138DEE00661F7C /* MapViewController.swift */,
 				31098E3D21133FB9007AD425 /* Home */,
 				31717BB42112729200E06698 /* TabBar */,
@@ -364,6 +371,22 @@
 			path = MapView;
 			sourceTree = "<group>";
 		};
+		316F695E21139D5600661F7C /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				316F695F21139D5600661F7C /* DetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		316F696121139D5E00661F7C /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				316F696221139D5E00661F7C /* DetailsTableViewCell.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		31717B9D21126EE100E06698 /* ThirdParties */ = {
 			isa = PBXGroup;
 			children = (
@@ -400,6 +423,7 @@
 		31EB38CD21128ADE00F449B7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				316F696121139D5E00661F7C /* Details */,
 				316F695521138DDF00661F7C /* MapView */,
 				31EB38CE21128ADE00F449B7 /* HomeCell */,
 			);
@@ -426,6 +450,7 @@
 		31EB38D321128ADE00F449B7 /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				316F69642113A07B00661F7C /* Details.storyboard */,
 				316F695021138DAC00661F7C /* Map.storyboard */,
 				31EB38D421128ADE00F449B7 /* Main.storyboard */,
 			);
@@ -625,6 +650,7 @@
 				3100DAD92111D24000CFF78B /* LaunchScreen.storyboard in Resources */,
 				31098E4121133FC7007AD425 /* BestsTableViewHeader.xib in Resources */,
 				3100DAD62111D24000CFF78B /* Assets.xcassets in Resources */,
+				316F69652113A07B00661F7C /* Details.storyboard in Resources */,
 				316F695821138DDF00661F7C /* MapInfoHotelView.xib in Resources */,
 				31098E5921136C58007AD425 /* ProductCollectionViewCell.xib in Resources */,
 			);
@@ -749,10 +775,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				31717BB62112729F00E06698 /* ExampleIrregularityContentView.swift in Sources */,
+				316F696021139D5600661F7C /* DetailsViewController.swift in Sources */,
 				3100DACF2111D23E00CFF78B /* AppDelegate.swift in Sources */,
 				3100DB022111DEFD00CFF78B /* SplashViewController.swift in Sources */,
 				31EB38EA21128FDA00F449B7 /* ColorExtension.swift in Sources */,
 				3100DB0B2111E31000CFF78B /* UITableView+Extension.swift in Sources */,
+				316F696321139D5E00661F7C /* DetailsTableViewCell.swift in Sources */,
 				316F695921138DDF00661F7C /* MapInfoHotelView.swift in Sources */,
 				31EB38F02112A15500F449B7 /* MeViewController.swift in Sources */,
 				31098E4021133FC7007AD425 /* BestsTableViewHeader.swift in Sources */,

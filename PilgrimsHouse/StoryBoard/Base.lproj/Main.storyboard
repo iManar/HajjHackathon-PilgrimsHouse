@@ -108,7 +108,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="239.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="manar" translatesAutoresizingMaskIntoConstraints="NO" id="lx9-9G-yNv">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default" translatesAutoresizingMaskIntoConstraints="NO" id="lx9-9G-yNv">
                                                     <rect key="frame" x="137.5" y="41" width="100" height="100"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="100" id="NWG-in-YeA"/>
@@ -286,6 +286,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="manar" width="280" height="280"/>
+        <image name="default" width="153" height="128"/>
     </resources>
 </document>
