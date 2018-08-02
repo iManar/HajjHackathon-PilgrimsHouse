@@ -18,6 +18,7 @@ class SplashViewController: UIViewController {
         super.viewDidLoad()
 
         playSplashVideo()
+//        self.present(CustomTabBar.customIrregularityStyle(delegate: nil), animated: true, completion: nil)
     }
 
     

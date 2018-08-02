@@ -45,6 +45,7 @@
 		31EB38E621128E2400F449B7 /* TulipFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB38E521128E2400F449B7 /* TulipFonts.swift */; };
 		31EB38EA21128FDA00F449B7 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB38E921128FDA00F449B7 /* ColorExtension.swift */; };
 		31EB38EE2112920D00F449B7 /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 31EB38ED2112918700F449B7 /* splash.mp4 */; };
+		31EB38F02112A15500F449B7 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB38EF2112A15500F449B7 /* MeViewController.swift */; };
 		4439537D43C00FA2CB8218F7 /* Pods_PilgrimsHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */; };
 		9AEC4E9A21128E1200C66D29 /* HouseDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E9821128E1200C66D29 /* HouseDataResponse.swift */; };
 		9AEC4E9B21128E1200C66D29 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E9921128E1200C66D29 /* Data.swift */; };
@@ -122,6 +123,7 @@
 		31EB38E521128E2400F449B7 /* TulipFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TulipFonts.swift; sourceTree = "<group>"; };
 		31EB38E921128FDA00F449B7 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		31EB38ED2112918700F449B7 /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
+		31EB38EF2112A15500F449B7 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		39EA4117ABBED078E95852D7 /* Pods-PilgrimsHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse.release.xcconfig"; sourceTree = "<group>"; };
 		5E50AD7A1A51230D7D492A59 /* Pods-PilgrimsHouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseTests/Pods-PilgrimsHouseTests.release.xcconfig"; sourceTree = "<group>"; };
 		9AEC4E9821128E1200C66D29 /* HouseDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseDataResponse.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 			children = (
 				31717BB42112729200E06698 /* TabBar */,
 				3100DB012111DEFD00CFF78B /* SplashViewController.swift */,
+				31EB38EF2112A15500F449B7 /* MeViewController.swift */,
 				31717BB021126F7800E06698 /* HomeViewController.swift */,
 			);
 			path = Controllers;
@@ -671,6 +674,7 @@
 				3100DB022111DEFD00CFF78B /* SplashViewController.swift in Sources */,
 				31EB38EA21128FDA00F449B7 /* ColorExtension.swift in Sources */,
 				3100DB0B2111E31000CFF78B /* UITableView+Extension.swift in Sources */,
+				31EB38F02112A15500F449B7 /* MeViewController.swift in Sources */,
 				3100DB0F2111E31000CFF78B /* Utils.swift in Sources */,
 				9AEC4EA421128FCA00C66D29 /* Helper.swift in Sources */,
 				31717BAC21126EFE00E06698 /* ESTabBarItem.swift in Sources */,

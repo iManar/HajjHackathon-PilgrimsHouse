@@ -62,11 +62,11 @@ enum CustomTabBar {
             }
         }
         
-        let v1 = HomeViewController()
+        let v1 = MeViewController.instantiate(fromAppStoryboard: .Main)
         let v2 = HomeViewController()
         let v3 = HomeViewController()
         let v4 = HomeViewController()
-        let v5 = HomeViewController()
+        let v5 = HomeViewController.instantiate(fromAppStoryboard: .Main)
         
         v5.tabBarItem = ESTabBarItem.init(ExampleIrregularityBasicContentView(), title: "الرئيسية", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
         v4.tabBarItem = ESTabBarItem.init(ExampleIrregularityBasicContentView(), title: "Find", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
@@ -75,7 +75,7 @@ enum CustomTabBar {
         v1.tabBarItem = ESTabBarItem.init(ExampleIrregularityBasicContentView(), title: "حسابي", image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"))
         
         tabBarController.viewControllers = [v1, v2, v3, v4, v5]
-        
+        tabBarController.selectedIndex = 4
         let navigationController = CustomNavigationBar.init(rootViewController: tabBarController)
         tabBarController.title = "بيت الحجيج"
         
