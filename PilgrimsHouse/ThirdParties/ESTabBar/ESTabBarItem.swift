@@ -99,6 +99,7 @@ open class ESTabBarItem: UITabBarItem {
     
     open func setTitle(_ title: String? = nil, image: UIImage? = nil, selectedImage: UIImage? = nil, tag: Int = 0) {
         self.title = title
+        
         self.image = image
         self.selectedImage = selectedImage
         self.tag = tag
