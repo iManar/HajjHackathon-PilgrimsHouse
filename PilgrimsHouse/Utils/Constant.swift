@@ -10,6 +10,13 @@ import UIKit
 
 class Constants: NSObject {
     
+    struct StoryBoard
+    {
+        static let mainSB = "Main"
+        static let mapSB = "Map"
+
+        
+    }
     struct Url {
         
         static let home_url = "https://demo6412873.mockable.io/getHouses"

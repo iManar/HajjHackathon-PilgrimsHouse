@@ -17,6 +17,7 @@ target 'PilgrimsHouse' do
   pod 'SCLAlertView'
   pod 'JDropDownAlert'
   pod 'NVActivityIndicatorView'
+  pod 'HCMapInfoView'
 
   target 'PilgrimsHouseTests' do
     inherit! :search_paths

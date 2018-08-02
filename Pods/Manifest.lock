@@ -1,6 +1,9 @@
 PODS:
   - Alamofire (4.7.3)
   - Cosmos (16.0.0)
+  - HCFramework (1.2.9)
+  - HCMapInfoView (1.0.0):
+    - HCFramework
   - IQKeyboardManagerSwift (6.1.1)
   - JDropDownAlert (1.3.0)
   - NVActivityIndicatorView (4.3.0):
@@ -33,6 +36,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - Cosmos
+  - HCMapInfoView
   - IQKeyboardManagerSwift
   - JDropDownAlert
   - NVActivityIndicatorView
@@ -46,6 +50,8 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - Cosmos
+    - HCFramework
+    - HCMapInfoView
     - IQKeyboardManagerSwift
     - JDropDownAlert
     - NVActivityIndicatorView
@@ -58,6 +64,8 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   Cosmos: 7bcee0fa858a9355a214f2a181be5dffcee42c81
+  HCFramework: c2cc43840b694b435df171e6c02e7f92cbf0be3c
+  HCMapInfoView: 7613d773f231920a8f75d844bcdf402b5f9b6e56
   IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
   JDropDownAlert: fd2aec99b685cb35530283b34f36c7cb46d44170
   NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
@@ -67,6 +75,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwifterSwift: 1ce0e31801ddd3a2bd3256626275425adb01067a
 
-PODFILE CHECKSUM: 9406560049cae0200cef7c05404c4f4ba2f9950e
+PODFILE CHECKSUM: 598162a48fe6a3b718de0f8c3336ab00a108c9cb
 
 COCOAPODS: 1.5.2
