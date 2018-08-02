@@ -11,6 +11,7 @@ class Owner : NSObject, NSCoding, Mappable{
 	var createdOn : String?
 	var name : String?
 	var phone : String?
+    var image : String?
 
 
 	class func newInstance(map: Map) -> Mappable?{
@@ -24,6 +25,7 @@ class Owner : NSObject, NSCoding, Mappable{
 		createdOn <- map["createdOn"]
 		name <- map["name"]
 		phone <- map["phone"]
+        image <- map["image"]
 		
 	}
 
@@ -36,6 +38,7 @@ class Owner : NSObject, NSCoding, Mappable{
          createdOn = aDecoder.decodeObject(forKey: "createdOn") as? String
          name = aDecoder.decodeObject(forKey: "name") as? String
          phone = aDecoder.decodeObject(forKey: "phone") as? String
+        image = aDecoder.decodeObject(forKey: "image") as? String
 
 	}
 

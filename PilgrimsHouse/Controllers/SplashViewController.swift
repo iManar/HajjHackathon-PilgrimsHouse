@@ -20,7 +20,7 @@ class SplashViewController: UIViewController {
 //        playSplashVideo()
         
 
-          self.present(MapViewController.instantiate(fromAppStoryboard: .Map), animated: true, completion: nil)
+          self.present(CustomTabBar.customIrregularityStyle(delegate: nil), animated: true, completion: nil)
         
     }
 
