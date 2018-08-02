@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3100DACF2111D23E00CFF78B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DACE2111D23E00CFF78B /* AppDelegate.swift */; };
-		3100DAD42111D23E00CFF78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3100DAD22111D23E00CFF78B /* Main.storyboard */; };
 		3100DAD62111D24000CFF78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3100DAD52111D24000CFF78B /* Assets.xcassets */; };
 		3100DAD92111D24000CFF78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3100DAD72111D24000CFF78B /* LaunchScreen.storyboard */; };
 		3100DAE42111D24000CFF78B /* PilgrimsHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100DAE32111D24000CFF78B /* PilgrimsHouseTests.swift */; };
@@ -34,6 +33,11 @@
 		31717BB62112729F00E06698 /* ExampleIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BB52112729F00E06698 /* ExampleIrregularityContentView.swift */; };
 		31717BB8211272AB00E06698 /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BB7211272AB00E06698 /* ExampleBouncesContentView.swift */; };
 		31717BBA211272C000E06698 /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BB9211272C000E06698 /* ExampleBasicContentView.swift */; };
+		31EB38D621128ADE00F449B7 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB38CF21128ADE00F449B7 /* HomeTableViewCell.swift */; };
+		31EB38D721128ADE00F449B7 /* HomeTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31EB38D021128ADE00F449B7 /* HomeTableCellView.xib */; };
+		31EB38D821128ADE00F449B7 /* BestSellingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB38D121128ADE00F449B7 /* BestSellingTableViewCell.swift */; };
+		31EB38D921128ADE00F449B7 /* BestSellingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31EB38D221128ADE00F449B7 /* BestSellingTableViewCell.xib */; };
+		31EB38DA21128ADE00F449B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31EB38D421128ADE00F449B7 /* Main.storyboard */; };
 		4439537D43C00FA2CB8218F7 /* Pods_PilgrimsHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */; };
 		B9B016029247F795E31821BD /* Pods_PilgrimsHouseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231216318EE61E9DB6FE899F /* Pods_PilgrimsHouseTests.framework */; };
 		F3C4D5CB08A5054FD4174562 /* Pods_PilgrimsHouseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332BD92234CD2B4DF4AA5E6 /* Pods_PilgrimsHouseUITests.framework */; };
@@ -61,7 +65,6 @@
 		2AB31AC3DAA60580810E10C5 /* Pods-PilgrimsHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse.debug.xcconfig"; sourceTree = "<group>"; };
 		3100DACB2111D23E00CFF78B /* PilgrimsHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PilgrimsHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3100DACE2111D23E00CFF78B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3100DAD32111D23E00CFF78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3100DAD52111D24000CFF78B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3100DAD82111D24000CFF78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3100DADA2111D24000CFF78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +96,11 @@
 		31717BB52112729F00E06698 /* ExampleIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityContentView.swift; sourceTree = "<group>"; };
 		31717BB7211272AB00E06698 /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
 		31717BB9211272C000E06698 /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		31EB38CF21128ADE00F449B7 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		31EB38D021128ADE00F449B7 /* HomeTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableCellView.xib; sourceTree = "<group>"; };
+		31EB38D121128ADE00F449B7 /* BestSellingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestSellingTableViewCell.swift; sourceTree = "<group>"; };
+		31EB38D221128ADE00F449B7 /* BestSellingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BestSellingTableViewCell.xib; sourceTree = "<group>"; };
+		31EB38D521128ADE00F449B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39EA4117ABBED078E95852D7 /* Pods-PilgrimsHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse.release.xcconfig"; sourceTree = "<group>"; };
 		5E50AD7A1A51230D7D492A59 /* Pods-PilgrimsHouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseTests/Pods-PilgrimsHouseTests.release.xcconfig"; sourceTree = "<group>"; };
 		A0713628ED29363010377B1C /* Pods-PilgrimsHouseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseUITests/Pods-PilgrimsHouseUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -154,7 +162,8 @@
 		3100DACD2111D23E00CFF78B /* PilgrimsHouse */ = {
 			isa = PBXGroup;
 			children = (
-				3100DAD22111D23E00CFF78B /* Main.storyboard */,
+				31EB38D321128ADE00F449B7 /* StoryBoard */,
+				31EB38CD21128ADE00F449B7 /* Views */,
 				3100DB002111DEEB00CFF78B /* Controllers */,
 				31717B9D21126EE100E06698 /* ThirdParties */,
 				3100DB032111E31000CFF78B /* Extensions */,
@@ -290,6 +299,33 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
+		31EB38CD21128ADE00F449B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31EB38CE21128ADE00F449B7 /* HomeCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		31EB38CE21128ADE00F449B7 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				31EB38CF21128ADE00F449B7 /* HomeTableViewCell.swift */,
+				31EB38D021128ADE00F449B7 /* HomeTableCellView.xib */,
+				31EB38D121128ADE00F449B7 /* BestSellingTableViewCell.swift */,
+				31EB38D221128ADE00F449B7 /* BestSellingTableViewCell.xib */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		31EB38D321128ADE00F449B7 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				31EB38D421128ADE00F449B7 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
 		603EEFBB7608F1716005FB2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,7 +360,7 @@
 				3100DAC72111D23E00CFF78B /* Sources */,
 				3100DAC82111D23E00CFF78B /* Frameworks */,
 				3100DAC92111D23E00CFF78B /* Resources */,
-				4EED3DAA6B4DCF1F3D67A80B /* [CP] Embed Pods Frameworks */,
+				E812161B70F790AD4A52A041 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -421,11 +457,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EB38DA21128ADE00F449B7 /* Main.storyboard in Resources */,
 				31717BA821126EFE00E06698 /* Localizable.strings in Resources */,
 				3100DB11211253E200CFF78B /* splash.mp4 in Resources */,
+				31EB38D921128ADE00F449B7 /* BestSellingTableViewCell.xib in Resources */,
 				3100DAD92111D24000CFF78B /* LaunchScreen.storyboard in Resources */,
 				3100DAD62111D24000CFF78B /* Assets.xcassets in Resources */,
-				3100DAD42111D23E00CFF78B /* Main.storyboard in Resources */,
+				31EB38D721128ADE00F449B7 /* HomeTableCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,30 +520,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4EED3DAA6B4DCF1F3D67A80B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6AD11386CFBA07074C814B9C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -524,6 +538,34 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E812161B70F790AD4A52A041 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -540,6 +582,7 @@
 				31717B9C21126E8400E06698 /* CustomTabBar.swift in Sources */,
 				3100DB0D2111E31000CFF78B /* UIViewController+Extension.swift in Sources */,
 				31717BAE21126EFE00E06698 /* ESTabBar.swift in Sources */,
+				31EB38D621128ADE00F449B7 /* HomeTableViewCell.swift in Sources */,
 				3100DB0E2111E31000CFF78B /* String+Extension.swift in Sources */,
 				31717BAD21126EFE00E06698 /* ESTabBarItemBadgeView.swift in Sources */,
 				31717BAA21126EFE00E06698 /* ESTabBarController.swift in Sources */,
@@ -548,6 +591,7 @@
 				31717BB3211271F600E06698 /* CustomNavigationBar.swift in Sources */,
 				31717BAB21126EFE00E06698 /* ESTabBarItemContentView.swift in Sources */,
 				31717BBA211272C000E06698 /* ExampleBasicContentView.swift in Sources */,
+				31EB38D821128ADE00F449B7 /* BestSellingTableViewCell.swift in Sources */,
 				3100DB0C2111E31000CFF78B /* Constants.swift in Sources */,
 				31717BA921126EFE00E06698 /* ESTabBarItemMoreContentView.swift in Sources */,
 				31717BAF21126EFE00E06698 /* ESTabBarItemContainer.swift in Sources */,
@@ -586,14 +630,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3100DAD22111D23E00CFF78B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3100DAD32111D23E00CFF78B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3100DAD72111D24000CFF78B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -608,6 +644,14 @@
 				31717BA021126EFE00E06698 /* en */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		31EB38D421128ADE00F449B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31EB38D521128ADE00F449B7 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
