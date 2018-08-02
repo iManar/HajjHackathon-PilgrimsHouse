@@ -142,3 +142,4 @@ class Data : NSObject, NSCoding, Mappable{
     }
     
 }
+    

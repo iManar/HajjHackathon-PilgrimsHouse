@@ -11,7 +11,6 @@ import HCMapInfoView
 import CoreLocation
 
 class HotelMapDetailsView: HCAnnotation {
-    var image:UIImage?
     
     var hotelName:String {
         get {
@@ -31,11 +30,10 @@ class HotelMapDetailsView: HCAnnotation {
         }
     }
     
-    convenience init(hotelName:String, hotelLocation:String, coordinate:CLLocationCoordinate2D, image:UIImage?)
+    convenience init(hotelName:String, hotelLocation:String, coordinate:CLLocationCoordinate2D)
     {
         self.init(title: hotelName, subtitle: hotelLocation, coordinate: coordinate)
        
-        self.image = image
         self.hotelName = hotelName
         self.hotelLocation  = hotelLocation
     }
