@@ -61,6 +61,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
         let attributeString: NSMutableAttributedString =  NSMutableAttributedString(string: oldPrice)
         attributeString.addAttribute(NSAttributedStringKey.strikethroughStyle, value: 2, range: NSMakeRange(0, attributeString.length))
         attributeString.addAttribute(NSAttributedStringKey.baselineOffset, value: 0, range: NSMakeRange(0, attributeString.length))
+        attributeString.addAttribute(NSAttributedStringKey.font, value: UIFont.tulipRegularFont(fontSize: 14), range: NSRange(location: 0, length: attributeString.length))
         oldPriceLbl.attributedText = attributeString
         oldPriceLbl.isHidden = false
     }

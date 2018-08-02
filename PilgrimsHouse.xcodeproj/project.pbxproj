@@ -35,6 +35,7 @@
 		316F695821138DDF00661F7C /* MapInfoHotelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 316F695621138DDF00661F7C /* MapInfoHotelView.xib */; };
 		316F695921138DDF00661F7C /* MapInfoHotelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F695721138DDF00661F7C /* MapInfoHotelView.swift */; };
 		316F695B21138DEE00661F7C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F695A21138DEE00661F7C /* MapViewController.swift */; };
+		316F695D21139AF700661F7C /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 316F695C21139AC500661F7C /* splash.mp4 */; };
 		31717B9C21126E8400E06698 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717B9B21126E8400E06698 /* CustomTabBar.swift */; };
 		31717BA821126EFE00E06698 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31717B9F21126EFE00E06698 /* Localizable.strings */; };
 		31717BA921126EFE00E06698 /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BA121126EFE00E06698 /* ESTabBarItemMoreContentView.swift */; };
@@ -58,7 +59,6 @@
 		31EB38E421128D9B00F449B7 /* DINNextLTArabic-UltraLight-74ef865937485b3510d3ce7f32e0f2a7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31EB38DE21128D6C00F449B7 /* DINNextLTArabic-UltraLight-74ef865937485b3510d3ce7f32e0f2a7.ttf */; };
 		31EB38E621128E2400F449B7 /* TulipFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB38E521128E2400F449B7 /* TulipFonts.swift */; };
 		31EB38EA21128FDA00F449B7 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB38E921128FDA00F449B7 /* ColorExtension.swift */; };
-		31EB38EE2112920D00F449B7 /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 31EB38ED2112918700F449B7 /* splash.mp4 */; };
 		31EB38F02112A15500F449B7 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB38EF2112A15500F449B7 /* MeViewController.swift */; };
 		4439537D43C00FA2CB8218F7 /* Pods_PilgrimsHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */; };
 		9AEC4E9A21128E1200C66D29 /* HouseDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E9821128E1200C66D29 /* HouseDataResponse.swift */; };
@@ -126,6 +126,7 @@
 		316F695621138DDF00661F7C /* MapInfoHotelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapInfoHotelView.xib; sourceTree = "<group>"; };
 		316F695721138DDF00661F7C /* MapInfoHotelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapInfoHotelView.swift; sourceTree = "<group>"; };
 		316F695A21138DEE00661F7C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		316F695C21139AC500661F7C /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
 		31717B9B21126E8400E06698 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		31717BA021126EFE00E06698 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		31717BA121126EFE00E06698 /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
@@ -150,7 +151,6 @@
 		31EB38DF21128D6D00F449B7 /* DINNextLTArabic-Bold-4203828056a0da5fc095934e728090e3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTArabic-Bold-4203828056a0da5fc095934e728090e3.ttf"; sourceTree = "<group>"; };
 		31EB38E521128E2400F449B7 /* TulipFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TulipFonts.swift; sourceTree = "<group>"; };
 		31EB38E921128FDA00F449B7 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		31EB38ED2112918700F449B7 /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
 		31EB38EF2112A15500F449B7 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		39EA4117ABBED078E95852D7 /* Pods-PilgrimsHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse.release.xcconfig"; sourceTree = "<group>"; };
 		5E50AD7A1A51230D7D492A59 /* Pods-PilgrimsHouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseTests/Pods-PilgrimsHouseTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -286,7 +286,7 @@
 		3100DAFF2111D94D00CFF78B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				31EB38ED2112918700F449B7 /* splash.mp4 */,
+				316F695C21139AC500661F7C /* splash.mp4 */,
 				3100DAD72111D24000CFF78B /* LaunchScreen.storyboard */,
 				3100DAD52111D24000CFF78B /* Assets.xcassets */,
 			);
@@ -609,8 +609,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316F695D21139AF700661F7C /* splash.mp4 in Resources */,
 				31098E5A21137AE0007AD425 /* HomeTableCellView.xib in Resources */,
-				31EB38EE2112920D00F449B7 /* splash.mp4 in Resources */,
 				31EB38E021128D9B00F449B7 /* DINNextLTArabic-Bold-4203828056a0da5fc095934e728090e3.ttf in Resources */,
 				31EB38E121128D9B00F449B7 /* dinnextltarabic-light-ac8b82da0312e7e79515839c80829c5e.ttf in Resources */,
 				31EB38E221128D9B00F449B7 /* DINNextLTArabic-Medium-ffcf5edfb280ef3a74b710d297c58820.ttf in Resources */,

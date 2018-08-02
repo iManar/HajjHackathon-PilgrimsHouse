@@ -17,10 +17,10 @@ class SplashViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        playSplashVideo()
+        playSplashVideo()
         
 
-          self.present(CustomTabBar.customIrregularityStyle(delegate: nil), animated: true, completion: nil)
+//          self.present(CustomTabBar.customIrregularityStyle(delegate: nil), animated: true, completion: nil)
         
     }
 

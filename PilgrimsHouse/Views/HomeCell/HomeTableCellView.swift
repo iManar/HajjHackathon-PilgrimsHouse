@@ -24,15 +24,19 @@ class HomeTableCellView: UITableViewCell {
     @IBOutlet weak var createOn: UILabel!
     @IBOutlet weak var sellerRate: UIView!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    func setupWithData(data: Data) {
+        
+        houseImg.sd_setImage(with: URL(string: data.thumbnail!), placeholderImage: #imageLiteral(resourceName: "default"))
+        houseType.text = data.houseType
+        adName.text = data.name
+        housePrice.text = data.price! + " ريال"
+        
+        sellerImg.sd_setImage(with: URL(string: (data.owner?.image)!), placeholderImage: #imageLiteral(resourceName: "default"))
+        sellerName.text = data.owner?.name
+        createOn.text = "عرضت في " + data.owner!.createdOn!
+        
+        
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    
 
 }

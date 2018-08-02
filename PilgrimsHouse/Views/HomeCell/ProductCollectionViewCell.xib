@@ -40,16 +40,16 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZRc-NR-eZn">
-                                <rect key="frame" x="8" y="163" width="161" height="21"/>
+                                <rect key="frame" x="8" y="169.5" width="161" height="16.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="751" verticalCompressionResistancePriority="1000" text="111,260 KWD" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="a52-fk-ZlH" userLabel="priceLbl">
-                                        <rect key="frame" x="0.0" y="0.0" width="161" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="161" height="16.5"/>
                                         <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.49803921580314636" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="0bB-wu-GhV" userLabel="oldPriceLbl">
-                                        <rect key="frame" x="-8" y="2" width="0.0" height="17.5"/>
+                                        <rect key="frame" x="-8" y="-0.5" width="0.0" height="17.5"/>
                                         <attributedString key="attributedText">
                                             <fragment content="188,820 KWD">
                                                 <attributes>
@@ -64,13 +64,13 @@
                                 </subviews>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QuJ-Vr-eWc">
-                                <rect key="frame" x="0.0" y="189" width="177" height="35"/>
+                                <rect key="frame" x="0.0" y="191" width="177" height="33"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="zQu-RC-Qye">
-                                        <rect key="frame" x="0.0" y="0.0" width="177" height="35"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="177" height="33"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Prm-o3-2nJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="36" height="35"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="33"/>
                                                 <color key="backgroundColor" red="0.33725490200000002" green="0.65490196079999996" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="36" id="WQn-PB-mhg"/>
@@ -84,14 +84,14 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLV-Kh-cXs">
-                                                <rect key="frame" x="36" y="0.0" width="105" height="35"/>
+                                                <rect key="frame" x="36" y="0.0" width="105" height="33"/>
                                                 <color key="backgroundColor" red="0.23921568630000001" green="0.51764705879999995" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="CoconNextArabic-Light" family="CoconÆ Next Arabic" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJR-k9-H1s">
-                                                <rect key="frame" x="141" y="0.0" width="36" height="35"/>
+                                                <rect key="frame" x="141" y="0.0" width="36" height="33"/>
                                                 <color key="backgroundColor" red="0.33785039189999999" green="0.6562715173" blue="0.1665668786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="36" id="9sg-dz-F9X"/>
@@ -107,20 +107,16 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0a-TE-upC" userLabel="addToCartBtn">
-                                        <rect key="frame" x="0.0" y="0.0" width="177" height="35"/>
-                                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="177" height="33"/>
+                                        <color key="backgroundColor" red="0.1647058824" green="0.66666666669999997" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="15"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="15" maxY="0.0"/>
                                         <state key="normal" title="إحجز">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="addToCartTapped:" destination="RjU-UM-N7h" eventType="touchUpInside" id="hWy-BZ-cC9"/>
-                                            <action selector="addToCartTapped:" destination="QuJ-Vr-eWc" eventType="touchUpInside" id="rWf-nb-JiG"/>
-                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cartshop" translatesAutoresizingMaskIntoConstraints="NO" id="tqH-mU-RGg">
-                                        <rect key="frame" x="5" y="5" width="40" height="25"/>
+                                        <rect key="frame" x="5" y="5" width="40" height="23"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="uLI-5f-2CC"/>
                                         </constraints>
@@ -144,7 +140,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fresh Cherry sjfljdsnfjdnsf" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="IVA-6m-N6B" userLabel="productNameLbl">
-                                <rect key="frame" x="8" y="142" width="161" height="21"/>
+                                <rect key="frame" x="8" y="142" width="161" height="27.5"/>
                                 <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

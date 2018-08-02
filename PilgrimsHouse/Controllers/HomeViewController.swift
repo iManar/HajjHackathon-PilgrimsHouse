@@ -91,6 +91,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
            let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: MiniCategoriesTableViewCell.self)) as! MiniCategoriesTableViewCell
             DispatchQueue.main.async {
                 cell.collectionView.reloadData()
+                cell.collectionView.scrollToItem(at: IndexPath(row: 3, section: 0), at: .centeredHorizontally, animated: true)
             }
 
             return cell
@@ -99,15 +100,15 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             cell.itemsJson = itemsList
             DispatchQueue.main.async {
                 cell.collectionView.reloadData()
+                if self.itemsList.count-1 > 0 {
+                    cell.collectionView.scrollToItem(at: IndexPath(row: self.itemsList.count-1, section: 0), at: .centeredHorizontally, animated: true)
+                }
             }
             return cell
 
         default:
             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: HomeTableCellView.self)) as! HomeTableCellView
-//            let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as! DailyDealsTableViewCell
-//            DispatchQueue.main.async {
-//                cell.collectionView.reloadData()
-//            }
+            cell.setupWithData(data: itemsList[indexPath.row])
             return cell
         }
 
