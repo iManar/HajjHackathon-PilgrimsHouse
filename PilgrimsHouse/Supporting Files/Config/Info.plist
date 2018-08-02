@@ -46,5 +46,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>DINNextLTArabic-Bold-4203828056a0da5fc095934e728090e3.ttf</string>
+		<string>dinnextltarabic-light-ac8b82da0312e7e79515839c80829c5e.ttf</string>
+		<string>DINNextLTArabic-Medium-ffcf5edfb280ef3a74b710d297c58820.ttf</string>
+		<string>DINNextLTArabic-Regular-43d5d09abfc8ed71bb15ca073976b0ed.ttf</string>
+		<string>DINNextLTArabic-UltraLight-74ef865937485b3510d3ce7f32e0f2a7.ttf</string>
+	</array>
 </dict>
 </plist>
