@@ -1,6 +1,9 @@
 PODS:
   - Alamofire (4.7.3)
   - Cosmos (16.0.0)
+  - HCFramework (1.2.9)
+  - HCMapInfoView (1.0.0):
+    - HCFramework
   - IQKeyboardManagerSwift (6.1.1)
   - JDropDownAlert (1.3.0)
   - ObjectMapper (3.3.0)
@@ -30,6 +33,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - Cosmos
+  - HCMapInfoView
   - IQKeyboardManagerSwift
   - JDropDownAlert
   - ObjectMapper
@@ -42,6 +46,8 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - Cosmos
+    - HCFramework
+    - HCMapInfoView
     - IQKeyboardManagerSwift
     - JDropDownAlert
     - ObjectMapper
@@ -53,6 +59,8 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   Cosmos: 7bcee0fa858a9355a214f2a181be5dffcee42c81
+  HCFramework: c2cc43840b694b435df171e6c02e7f92cbf0be3c
+  HCMapInfoView: 7613d773f231920a8f75d844bcdf402b5f9b6e56
   IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
   JDropDownAlert: fd2aec99b685cb35530283b34f36c7cb46d44170
   ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
@@ -61,6 +69,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwifterSwift: 1ce0e31801ddd3a2bd3256626275425adb01067a
 
-PODFILE CHECKSUM: 53f75e9e38d2c66b67595420b456fb2a1e961e33
+PODFILE CHECKSUM: 69680f8e39a7f3c331ba6c8fa5448745e62da6fe
 
 COCOAPODS: 1.5.0

@@ -24,6 +24,7 @@ extension UIViewController {
 enum AppStoryboard : String {
     
     case Main
+    case Map
     
     var instance : UIStoryboard {
         return UIStoryboard(name: self.rawValue, bundle: Bundle.main)

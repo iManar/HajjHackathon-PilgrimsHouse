@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="dk0-eC-3c1">
+            <objects>
+                <viewController storyboardIdentifier="MapViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IWH-dF-cYG" customClass="MapViewController" customModule="PilgrimsHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ch0-ZU-qla">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Uui-4f-3Z8">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <connections>
+                                    <outlet property="delegate" destination="IWH-dF-cYG" id="Gp7-h5-XEM"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Sjs-n6-kYf" firstAttribute="bottom" secondItem="Uui-4f-3Z8" secondAttribute="bottom" id="GVL-iA-GbL"/>
+                            <constraint firstItem="Sjs-n6-kYf" firstAttribute="trailing" secondItem="Uui-4f-3Z8" secondAttribute="trailing" id="Jh9-ht-jRt"/>
+                            <constraint firstItem="Uui-4f-3Z8" firstAttribute="top" secondItem="Sjs-n6-kYf" secondAttribute="top" id="PA8-9b-LUZ"/>
+                            <constraint firstItem="Uui-4f-3Z8" firstAttribute="leading" secondItem="Sjs-n6-kYf" secondAttribute="leading" id="ocZ-RW-eMn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Sjs-n6-kYf"/>
+                    </view>
+                    <connections>
+                        <outlet property="map" destination="Uui-4f-3Z8" id="xpp-1v-aVA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tms-fz-FoL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="908" y="3840"/>
+        </scene>
+    </scenes>
+</document>
