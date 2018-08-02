@@ -13,23 +13,28 @@ import HCMapInfoView
 class MapViewController: UIViewController {
 
     @IBOutlet weak var map: MKMapView!
+    var roomLocation: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 40.759011, longitude: -73.984472)
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        let sourceLocation = CLLocationCoordinate2D(latitude: 40.759011, longitude: -73.984472)
-//        let destinationLocation = CLLocationCoordinate2D(latitude: 40.748441, longitude: -73.985564)
+        let KaabaLocation = CLLocationCoordinate2D(latitude: 21.422487, longitude:39.826206)
+        let ArafaatLocation = CLLocationCoordinate2D(latitude: 21.422487, longitude:39.9841)
+        let MenaLocation = CLLocationCoordinate2D(latitude: 21.4146, longitude:39.8946)
 
-        let sourceLocation = CLLocationCoordinate2D(latitude: 21.422487, longitude:39.826206)
-        let destinationLocation = CLLocationCoordinate2D(latitude: 21.422487, longitude:39.9841)
-
+        
         // Do any additional setup after loading the view.
-        map.addAnnotation(HotelMapDetailsView(hotelName:"مكه المكرمه", hotelLocation:"الكعبه", coordinate:sourceLocation, image:#imageLiteral(resourceName: "ka3ba")))
+        map.addAnnotation(HotelMapDetailsView(hotelName:"مكه المكرمه", hotelLocation:"الكعبه", coordinate:KaabaLocation, image:#imageLiteral(resourceName: "ka3ba")))
 
-        map.addAnnotation(HotelMapDetailsView(hotelName:"مكه المكرمه", hotelLocation:"جبل عرفات ", coordinate:destinationLocation, image:#imageLiteral(resourceName: "araaft")))
+        map.addAnnotation(HotelMapDetailsView(hotelName:"مكه المكرمه", hotelLocation:"جبل عرفات ", coordinate:ArafaatLocation, image:#imageLiteral(resourceName: "araaft")))
         
-        
-        showRouteOnMap(pickupCoordinate: sourceLocation, destinationCoordinate: destinationLocation)
+        map.addAnnotation(HotelMapDetailsView(hotelName:"مكه المكرمه", hotelLocation:"منا ", coordinate:MenaLocation, image:#imageLiteral(resourceName: "araaft")))
+
+    
+        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: KaabaLocation)
+        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: ArafaatLocation)
+        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: MenaLocation)
+
     }
  
 
