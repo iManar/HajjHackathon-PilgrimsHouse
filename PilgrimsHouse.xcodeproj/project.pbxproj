@@ -64,6 +64,11 @@
 		31EB38EA21128FDA00F449B7 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB38E921128FDA00F449B7 /* ColorExtension.swift */; };
 		31EB38F02112A15500F449B7 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB38EF2112A15500F449B7 /* MeViewController.swift */; };
 		4439537D43C00FA2CB8218F7 /* Pods_PilgrimsHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B824CC2F856ACEB968D5DACB /* Pods_PilgrimsHouse.framework */; };
+		9A088EB22113F194003C4225 /* ConversationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A088EB12113F194003C4225 /* ConversationTableViewController.swift */; };
+		9A088EB42113F252003C4225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A088EB32113F252003C4225 /* ViewController.swift */; };
+		9A088EB82113F280003C4225 /* MessageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A088EB62113F280003C4225 /* MessageViewCell.swift */; };
+		9A088EB92113F280003C4225 /* MessageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A088EB72113F280003C4225 /* MessageViewCell.xib */; };
+		9A397DAF2113FAA6006B6A94 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A397DAE2113FAA6006B6A94 /* DetailsTableViewController.swift */; };
 		9AEC4E9A21128E1200C66D29 /* HouseDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E9821128E1200C66D29 /* HouseDataResponse.swift */; };
 		9AEC4E9B21128E1200C66D29 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E9921128E1200C66D29 /* Data.swift */; };
 		9AEC4E9F21128ECC00C66D29 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC4E9E21128ECC00C66D29 /* ServiceProvider.swift */; };
@@ -160,6 +165,11 @@
 		31EB38EF2112A15500F449B7 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		39EA4117ABBED078E95852D7 /* Pods-PilgrimsHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouse/Pods-PilgrimsHouse.release.xcconfig"; sourceTree = "<group>"; };
 		5E50AD7A1A51230D7D492A59 /* Pods-PilgrimsHouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PilgrimsHouseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PilgrimsHouseTests/Pods-PilgrimsHouseTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A088EB12113F194003C4225 /* ConversationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationTableViewController.swift; sourceTree = "<group>"; };
+		9A088EB32113F252003C4225 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A088EB62113F280003C4225 /* MessageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewCell.swift; sourceTree = "<group>"; };
+		9A088EB72113F280003C4225 /* MessageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewCell.xib; sourceTree = "<group>"; };
+		9A397DAE2113FAA6006B6A94 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
 		9AEC4E9821128E1200C66D29 /* HouseDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseDataResponse.swift; sourceTree = "<group>"; };
 		9AEC4E9921128E1200C66D29 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		9AEC4E9E21128ECC00C66D29 /* ServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
@@ -302,6 +312,7 @@
 		3100DB002111DEEB00CFF78B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9A088EB12113F194003C4225 /* ConversationTableViewController.swift */,
 				316F695E21139D5600661F7C /* Details */,
 				316F695A21138DEE00661F7C /* MapViewController.swift */,
 				31098E3D21133FB9007AD425 /* Home */,
@@ -309,6 +320,7 @@
 				3100DB012111DEFD00CFF78B /* SplashViewController.swift */,
 				31EB38EF2112A15500F449B7 /* MeViewController.swift */,
 				31717BB021126F7800E06698 /* HomeViewController.swift */,
+				9A397DAE2113FAA6006B6A94 /* DetailsTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -325,6 +337,7 @@
 		3100DB042111E31000CFF78B /* CommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				9A088EB32113F252003C4225 /* ViewController.swift */,
 				31EB38E921128FDA00F449B7 /* ColorExtension.swift */,
 				3100DB052111E31000CFF78B /* UITableView+Extension.swift */,
 				31717B9B21126E8400E06698 /* CustomTabBar.swift */,
@@ -423,6 +436,7 @@
 		31EB38CD21128ADE00F449B7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9A088EB52113F280003C4225 /* MessageViewCell */,
 				316F696121139D5E00661F7C /* Details */,
 				316F695521138DDF00661F7C /* MapView */,
 				31EB38CE21128ADE00F449B7 /* HomeCell */,
@@ -465,6 +479,15 @@
 				C332BD92234CD2B4DF4AA5E6 /* Pods_PilgrimsHouseUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A088EB52113F280003C4225 /* MessageViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9A088EB62113F280003C4225 /* MessageViewCell.swift */,
+				9A088EB72113F280003C4225 /* MessageViewCell.xib */,
+			);
+			path = MessageViewCell;
 			sourceTree = "<group>";
 		};
 		9AEC4E9621128DF800C66D29 /* Model */ = {
@@ -634,6 +657,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A088EB92113F280003C4225 /* MessageViewCell.xib in Resources */,
 				316F695D21139AF700661F7C /* splash.mp4 in Resources */,
 				31098E5A21137AE0007AD425 /* HomeTableCellView.xib in Resources */,
 				31EB38E021128D9B00F449B7 /* DINNextLTArabic-Bold-4203828056a0da5fc095934e728090e3.ttf in Resources */,
@@ -790,6 +814,7 @@
 				31717BAC21126EFE00E06698 /* ESTabBarItem.swift in Sources */,
 				9AEC4EA6211291C100C66D29 /* Constant.swift in Sources */,
 				31717B9C21126E8400E06698 /* CustomTabBar.swift in Sources */,
+				9A088EB22113F194003C4225 /* ConversationTableViewController.swift in Sources */,
 				9AEC4E9B21128E1200C66D29 /* Data.swift in Sources */,
 				31098E5621136C3D007AD425 /* ProductCollectionViewCell.swift in Sources */,
 				3100DB0D2111E31000CFF78B /* UIViewController+Extension.swift in Sources */,
@@ -799,6 +824,8 @@
 				31098E4D21134D50007AD425 /* MiniCategoryCollectionViewCell.swift in Sources */,
 				31098E482113429C007AD425 /* DailyDealsTableViewCell.swift in Sources */,
 				9AEC4EA121128F2B00C66D29 /* Reachability.swift in Sources */,
+				9A088EB42113F252003C4225 /* ViewController.swift in Sources */,
+				9A088EB82113F280003C4225 /* MessageViewCell.swift in Sources */,
 				316F695B21138DEE00661F7C /* MapViewController.swift in Sources */,
 				9AEC4EA82112925800C66D29 /* HomeServiceManager.swift in Sources */,
 				31717BAD21126EFE00E06698 /* ESTabBarItemBadgeView.swift in Sources */,
@@ -815,6 +842,7 @@
 				9AEC4E9F21128ECC00C66D29 /* ServiceProvider.swift in Sources */,
 				3100DB0C2111E31000CFF78B /* Constants.swift in Sources */,
 				31717BA921126EFE00E06698 /* ESTabBarItemMoreContentView.swift in Sources */,
+				9A397DAF2113FAA6006B6A94 /* DetailsTableViewController.swift in Sources */,
 				31717BAF21126EFE00E06698 /* ESTabBarItemContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -998,7 +1026,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P422QN8MZP;
+				DEVELOPMENT_TEAM = MAG9DAS3TQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PilgrimsHouse/ThirdParties/Framework",
@@ -1022,7 +1050,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P422QN8MZP;
+				DEVELOPMENT_TEAM = MAG9DAS3TQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PilgrimsHouse/ThirdParties/Framework",

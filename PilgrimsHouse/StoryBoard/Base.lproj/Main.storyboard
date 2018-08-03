@@ -44,8 +44,10 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="HW1-b5-k5y" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Xjd-mS-1s6">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="Xjd-mS-1s6">
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.33725490200000002" green="0.70980392160000005" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.33725490200000002" green="0.70980392160000005" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

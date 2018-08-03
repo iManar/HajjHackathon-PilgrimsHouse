@@ -47,7 +47,7 @@ DEPENDENCIES:
   - SwifterSwift
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - Cosmos
     - HCFramework
@@ -77,4 +77,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 598162a48fe6a3b718de0f8c3336ab00a108c9cb
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.5.0
