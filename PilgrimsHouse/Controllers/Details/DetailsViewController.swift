@@ -11,7 +11,7 @@ import UIKit
 class DetailsViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    
+    var dataModel: Data?
     override func viewDidLoad() {
         super.viewDidLoad()
 

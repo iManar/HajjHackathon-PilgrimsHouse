@@ -118,6 +118,15 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
 
     }
 
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if indexPath.section == 2 {
+            let vc = DetailsViewController.instantiate(fromAppStoryboard: .Details)
+            vc.dataModel = itemsList[indexPath.row]
+            navigationController?.pushViewController(vc, animated: true)
+        }
+    }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 
         switch indexPath.section {
