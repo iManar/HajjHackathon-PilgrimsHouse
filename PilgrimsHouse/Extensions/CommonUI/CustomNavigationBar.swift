@@ -23,6 +23,12 @@ class CustomNavigationBar: UINavigationController {
         #endif
         self.navigationBar.tintColor = UIColor.init(red: 38/255.0, green: 38/255.0, blue: 38/255.0, alpha: 1.0)
         self.navigationItem.title = "بيت الحجيج"
+        
+        
+        
+        let searchButton = UIBarButtonItem(image: #imageLiteral(resourceName: "search-ios"), style: .plain, target: self, action: nil)
+        navigationItem.rightBarButtonItem = searchButton
+        
     }
 
 }

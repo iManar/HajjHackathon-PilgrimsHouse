@@ -13,7 +13,8 @@ import HCMapInfoView
 class MapViewController: UIViewController {
 
     @IBOutlet weak var map: MKMapView!
-    var roomLocation: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 40.759011, longitude: -73.984472)
+    
+    var roomLocation: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 21.418217, longitude: 39.3838453)
     let kaabaLocation = CLLocationCoordinate2D(latitude: 21.422487, longitude:39.826206)
     let arafaatLocation = CLLocationCoordinate2D(latitude: 21.422487, longitude:39.9841)
     let menaLocation = CLLocationCoordinate2D(latitude: 21.4146, longitude:39.8946)
@@ -43,10 +44,10 @@ class MapViewController: UIViewController {
 
     
         showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: kaabaLocation)
-        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: arafaatLocation)
-        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: menaLocation)
+//        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: arafaatLocation)
+//        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: menaLocation)
         
-        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: dummyLocation)
+//        showRouteOnMap(pickupCoordinate: roomLocation, destinationCoordinate: dummyLocation)
 
 
     }

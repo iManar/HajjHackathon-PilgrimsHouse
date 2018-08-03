@@ -79,10 +79,6 @@ enum CustomTabBar {
         let navigationController = CustomNavigationBar.init(rootViewController: tabBarController)
         tabBarController.title = "بيت الحجيج"
         
-        
-        let searchButton = UIBarButtonItem(image: #imageLiteral(resourceName: "search-ios"), style: .plain, target: self, action: nil)
-        navigationController.navigationItem.rightBarButtonItem = searchButton
-        
         return navigationController
     }
 

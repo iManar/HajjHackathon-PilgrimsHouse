@@ -41,6 +41,10 @@ class HomeViewController: UIViewController {
         tableView.registerCellNib(DailyDealsTableViewCell.self)
         tableView.registerCellNib(MiniCategoriesTableViewCell.self)
         tableView.registerCellNib(HomeTableCellView.self)
+        
+            
+        let searchButton = UIBarButtonItem(image: #imageLiteral(resourceName: "search-ios"), style: .plain, target: self, action: nil)
+        navigationController?.navigationItem.rightBarButtonItem = searchButton
     }
     
    

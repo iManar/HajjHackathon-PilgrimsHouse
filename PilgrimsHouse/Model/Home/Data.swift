@@ -25,6 +25,7 @@ class Data : NSObject, NSCoding, Mappable{
     var rate : String?
     var thumbnail : String?
     var vendor : String?
+    var options : String?
     
     
     class func newInstance(map: Map) -> Mappable?{
@@ -52,6 +53,9 @@ class Data : NSObject, NSCoding, Mappable{
         rate <- map["rate"]
         thumbnail <- map["thumbnail"]
         vendor <- map["vendor"]
+        options <- map["options"]
+        
+        
         
     }
     
@@ -78,6 +82,7 @@ class Data : NSObject, NSCoding, Mappable{
         rate = aDecoder.decodeObject(forKey: "rate") as? String
         thumbnail = aDecoder.decodeObject(forKey: "thumbnail") as? String
         vendor = aDecoder.decodeObject(forKey: "vendor") as? String
+        options = aDecoder.decodeObject(forKey: "options") as? String
         
     }
     
