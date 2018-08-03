@@ -28,9 +28,41 @@ class DetailsTableViewController: UITableViewController {
     }
 
     @IBAction func mapBtnAction(_ sender: Any) {
-        self.present(WebViewController.instantiate(fromAppStoryboard: .Main), animated: true, completion: nil)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            let alertController = UIAlertController.init(title: nil, message: nil, preferredStyle: .actionSheet)
+            let takePhotoAction = UIAlertAction(title: "المسافة الي الحرم المكي", style: .default, handler: { _ in
+                let vc = WebViewController.instantiate(fromAppStoryboard: .Main)
+                 self.navigationController?.pushViewController(vc, animated: true)
+            })
+            alertController.addAction(takePhotoAction)
+            let selectFromAlbumAction = UIAlertAction(title: "المسافة الي عرفات", style: .default, handler: { _ in
+                let vc = WebViewController.instantiate(fromAppStoryboard: .Main)
+                vc.status = "1"
+                self.navigationController?.pushViewController(vc, animated: true)
+            })
+            alertController.addAction(selectFromAlbumAction)
+            let selectFromAlbumAction2 = UIAlertAction(title: "المسافة الي بوابات مني", style: .default, handler: { _ in
+                let vc = WebViewController.instantiate(fromAppStoryboard: .Main)
+                vc.status = "2"
+                self.navigationController?.pushViewController(vc, animated: true)
+            })
+            alertController.addAction(selectFromAlbumAction2)
+            let cancelAction = UIAlertAction(title: "إلغاء", style: .cancel, handler: nil)
+            alertController.addAction(cancelAction)
+            self.present(alertController, animated: true, completion: nil)
+        }
 
+        
     }
+    
+    @objc func onBannerPressed(_ sender :Any){
+        
+    }
+    
+  
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
