@@ -11,6 +11,7 @@ import UIKit
 
 class MiniCategoryCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var back: UIView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var categoryImage: UIImageView!
     
@@ -23,6 +24,5 @@ class MiniCategoryCollectionViewCell: UICollectionViewCell {
         
         self.categoryImage.image = image
         self.nameLabel.text = name
-        
     }
 }

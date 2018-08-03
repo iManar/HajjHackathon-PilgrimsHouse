@@ -284,6 +284,54 @@
             </objects>
             <point key="canvasLocation" x="1014" y="186"/>
         </scene>
+        <!--Search View Controller-->
+        <scene sceneID="QqD-OM-u15">
+            <objects>
+                <viewController storyboardIdentifier="SearchViewController" id="jOa-h2-ltS" customClass="SearchViewController" customModule="PilgrimsHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uVL-yL-E2h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" text="بحث ..." translatesAutoresizingMaskIntoConstraints="NO" id="HZc-kv-RB3">
+                                <rect key="frame" x="0.0" y="20" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Rt4-zB-vfg"/>
+                                </constraints>
+                                <color key="barTintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                <connections>
+                                    <outlet property="delegate" destination="jOa-h2-ltS" id="g3Z-vD-vx7"/>
+                                </connections>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3Vk-dP-Vgz">
+                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="jOa-h2-ltS" id="z8q-f2-aXb"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Eg5-ab-St8" firstAttribute="bottom" secondItem="3Vk-dP-Vgz" secondAttribute="bottom" id="5B4-Zt-3fD"/>
+                            <constraint firstItem="3Vk-dP-Vgz" firstAttribute="top" secondItem="HZc-kv-RB3" secondAttribute="bottom" id="84A-7g-pzy"/>
+                            <constraint firstItem="3Vk-dP-Vgz" firstAttribute="leading" secondItem="Eg5-ab-St8" secondAttribute="leading" id="E47-sc-eRv"/>
+                            <constraint firstItem="Eg5-ab-St8" firstAttribute="trailing" secondItem="3Vk-dP-Vgz" secondAttribute="trailing" id="HLy-jB-t0c"/>
+                            <constraint firstItem="HZc-kv-RB3" firstAttribute="leading" secondItem="Eg5-ab-St8" secondAttribute="leading" id="UW9-P6-6Sa"/>
+                            <constraint firstItem="HZc-kv-RB3" firstAttribute="top" secondItem="Eg5-ab-St8" secondAttribute="top" id="YsQ-gY-zbD"/>
+                            <constraint firstItem="HZc-kv-RB3" firstAttribute="trailing" secondItem="Eg5-ab-St8" secondAttribute="trailing" id="jpC-8b-Ndf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Eg5-ab-St8"/>
+                    </view>
+                    <connections>
+                        <outlet property="searchBar" destination="HZc-kv-RB3" id="cHM-i6-uki"/>
+                        <outlet property="tableView" destination="3Vk-dP-Vgz" id="RfG-JT-EY1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CKa-qI-Q15" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1672.8" y="185.75712143928038"/>
+        </scene>
     </scenes>
     <resources>
         <image name="default" width="153" height="128"/>

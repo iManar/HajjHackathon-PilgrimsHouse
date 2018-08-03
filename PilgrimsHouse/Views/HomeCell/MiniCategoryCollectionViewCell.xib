@@ -26,6 +26,10 @@
                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6PA-8a-d3Z" userLabel="containerView" customClass="CustomCardView" customModule="PilgrimsHouse" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="350" height="50"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jj8-77-EMn">
+                                <rect key="frame" x="0.0" y="0.0" width="350" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bakery" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="5IE-fg-XoF">
                                 <rect key="frame" x="8" y="5" width="289" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -46,10 +50,14 @@
                             <constraint firstAttribute="trailing" secondItem="PhN-Tb-HbH" secondAttribute="trailing" constant="12" id="7Ef-Bn-PMF"/>
                             <constraint firstItem="PhN-Tb-HbH" firstAttribute="leading" secondItem="5IE-fg-XoF" secondAttribute="trailing" constant="16" id="D9M-R1-A7e"/>
                             <constraint firstAttribute="bottom" secondItem="5IE-fg-XoF" secondAttribute="bottom" constant="5" id="Ezs-KI-Q6t"/>
+                            <constraint firstItem="Jj8-77-EMn" firstAttribute="leading" secondItem="6PA-8a-d3Z" secondAttribute="leading" id="Jgf-hj-95a"/>
                             <constraint firstItem="5IE-fg-XoF" firstAttribute="centerY" secondItem="6PA-8a-d3Z" secondAttribute="centerY" id="LD4-Vh-Qfs"/>
+                            <constraint firstAttribute="trailing" secondItem="Jj8-77-EMn" secondAttribute="trailing" id="MEE-cU-0Bw"/>
                             <constraint firstItem="5IE-fg-XoF" firstAttribute="top" secondItem="6PA-8a-d3Z" secondAttribute="top" constant="5" id="Njf-Uc-fBZ"/>
                             <constraint firstItem="PhN-Tb-HbH" firstAttribute="centerY" secondItem="5IE-fg-XoF" secondAttribute="centerY" id="bnU-f1-CHH"/>
                             <constraint firstItem="5IE-fg-XoF" firstAttribute="leading" secondItem="6PA-8a-d3Z" secondAttribute="leading" constant="8" id="kdp-1q-70r"/>
+                            <constraint firstAttribute="bottom" secondItem="Jj8-77-EMn" secondAttribute="bottom" id="tJW-Fa-3vh"/>
+                            <constraint firstItem="Jj8-77-EMn" firstAttribute="top" secondItem="6PA-8a-d3Z" secondAttribute="top" id="x9E-lk-Vui"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -88,6 +96,7 @@
                 </userDefinedRuntimeAttribute>
             </userDefinedRuntimeAttributes>
             <connections>
+                <outlet property="back" destination="Jj8-77-EMn" id="VjL-eq-RZf"/>
                 <outlet property="categoryImage" destination="PhN-Tb-HbH" id="FL5-Ru-ISj"/>
                 <outlet property="nameLabel" destination="5IE-fg-XoF" id="Zam-0c-dXg"/>
             </connections>

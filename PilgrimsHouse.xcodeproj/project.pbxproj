@@ -39,6 +39,7 @@
 		316F696021139D5600661F7C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F695F21139D5600661F7C /* DetailsViewController.swift */; };
 		316F696321139D5E00661F7C /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F696221139D5E00661F7C /* DetailsTableViewCell.swift */; };
 		316F69652113A07B00661F7C /* Details.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316F69642113A07B00661F7C /* Details.storyboard */; };
+		316F69672113DFCE00661F7C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F69662113DFCE00661F7C /* SearchViewController.swift */; };
 		31717B9C21126E8400E06698 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717B9B21126E8400E06698 /* CustomTabBar.swift */; };
 		31717BA821126EFE00E06698 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31717B9F21126EFE00E06698 /* Localizable.strings */; };
 		31717BA921126EFE00E06698 /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31717BA121126EFE00E06698 /* ESTabBarItemMoreContentView.swift */; };
@@ -133,6 +134,7 @@
 		316F695F21139D5600661F7C /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		316F696221139D5E00661F7C /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
 		316F69642113A07B00661F7C /* Details.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Details.storyboard; sourceTree = "<group>"; };
+		316F69662113DFCE00661F7C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		31717B9B21126E8400E06698 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		31717BA021126EFE00E06698 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		31717BA121126EFE00E06698 /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
@@ -309,6 +311,7 @@
 				3100DB012111DEFD00CFF78B /* SplashViewController.swift */,
 				31EB38EF2112A15500F449B7 /* MeViewController.swift */,
 				31717BB021126F7800E06698 /* HomeViewController.swift */,
+				316F69662113DFCE00661F7C /* SearchViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -789,6 +792,7 @@
 				9AEC4EA421128FCA00C66D29 /* Helper.swift in Sources */,
 				31717BAC21126EFE00E06698 /* ESTabBarItem.swift in Sources */,
 				9AEC4EA6211291C100C66D29 /* Constant.swift in Sources */,
+				316F69672113DFCE00661F7C /* SearchViewController.swift in Sources */,
 				31717B9C21126E8400E06698 /* CustomTabBar.swift in Sources */,
 				9AEC4E9B21128E1200C66D29 /* Data.swift in Sources */,
 				31098E5621136C3D007AD425 /* ProductCollectionViewCell.swift in Sources */,

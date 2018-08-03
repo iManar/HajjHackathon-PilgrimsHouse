@@ -68,6 +68,7 @@ extension MiniCategoriesTableViewCell: UICollectionViewDelegate, UICollectionVie
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
+        (collectionView.cellForItem(at: indexPath) as! MiniCategoryCollectionViewCell).back.backgroundColor = UIColor.lightGray.withAlphaComponent(0.55)
 
 //        let catItemVC = Constants.App.mainStoryboard.instantiateViewController(withIdentifier: "CategoryItemsViewController") as! CategoryItemsViewController
 //

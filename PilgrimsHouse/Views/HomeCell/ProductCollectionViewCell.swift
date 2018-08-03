@@ -30,7 +30,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
 //        self.plusminusbtns.semanticContentAttribute = .forceLeftToRight
         self.contentView.layer.borderWidth = 1
 //        self.borderColor = .grayInsta
-        productImageView.contentMode = .scaleAspectFit
+        productImageView.contentMode = .scaleToFill
         self.oldPriceLbl.textAlignment = .right
         self.priceLbl.textAlignment = .right
         self.titleLbl.textAlignment = .right
