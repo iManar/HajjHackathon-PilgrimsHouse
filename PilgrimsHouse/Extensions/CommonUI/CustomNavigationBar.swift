@@ -27,8 +27,9 @@ class CustomNavigationBar: UINavigationController {
         
         
         let searchButton = UIBarButtonItem(image: #imageLiteral(resourceName: "search-ios"), style: .plain, target: self, action: nil)
+
         navigationItem.rightBarButtonItem = searchButton
-        
+  
     }
 
 }
