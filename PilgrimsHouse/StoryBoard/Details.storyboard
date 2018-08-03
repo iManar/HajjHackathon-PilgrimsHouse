@@ -6,12 +6,13 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="DINNextLTArabic-Bold-4203828056a0da5fc095934e728090e3.ttf">
+            <string>DINNextLTArabic-Bold</string>
+        </array>
         <array key="DINNextLTArabic-Medium-ffcf5edfb280ef3a74b710d297c58820.ttf">
             <string>DINNextLTArabic-Medium</string>
         </array>
@@ -23,138 +24,11 @@
         </array>
     </customFonts>
     <scenes>
-        <!-- -->
-        <scene sceneID="uju-dv-WrN">
-            <objects>
-                <viewController storyboardIdentifier="DetailsViewController" id="kHy-bM-mbY" customClass="DetailsViewController" customModule="PilgrimsHouse" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="nli-GD-pTY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="room" translatesAutoresizingMaskIntoConstraints="NO" id="Xx9-11-W8s">
-                                <rect key="frame" x="0.0" y="20" width="375" height="167"/>
-                            </imageView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vQq-L9-jJh">
-                                <rect key="frame" x="0.0" y="187" width="375" height="480"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <view key="tableFooterView" contentMode="scaleToFill" id="Y1W-P0-G6M">
-                                    <rect key="frame" x="0.0" y="196" width="375" height="44"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </view>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="header" textLabel="xOG-fg-uK8" style="IBUITableViewCellStyleDefault" id="jgW-4C-AR9">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jgW-4C-AR9" id="QIq-Yj-69H">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xOG-fg-uK8">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="44"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
-                                                    <color key="textColor" red="0.33725490200000002" green="0.70980392160000005" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="Zpc-ZD-Z23" rowHeight="80" style="IBUITableViewCellStyleDefault" id="bkX-jy-8Jy">
-                                        <rect key="frame" x="0.0" y="72" width="375" height="80"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bkX-jy-8Jy" id="rXL-Ae-0s0">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zpc-ZD-Z23">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="80"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="17"/>
-                                                    <color key="textColor" red="0.45098039220000002" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell_image" id="22a-cX-Qoc" customClass="DetailsTableViewCell" customModule="PilgrimsHouse" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="152" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="22a-cX-Qoc" id="Evn-ew-DCy">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default" translatesAutoresizingMaskIntoConstraints="NO" id="22o-hL-Eir">
-                                                    <rect key="frame" x="316" y="9" width="39" height="26"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="39" id="79a-v6-LL5"/>
-                                                        <constraint firstAttribute="height" constant="26" id="A8e-OF-adY"/>
-                                                    </constraints>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhH-Pv-6cN">
-                                                    <rect key="frame" x="20" y="7.5" width="288" height="25"/>
-                                                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="17"/>
-                                                    <color key="textColor" red="0.45098039220000002" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="22o-hL-Eir" secondAttribute="trailing" constant="20" id="Bbg-gb-sWO"/>
-                                                <constraint firstItem="EhH-Pv-6cN" firstAttribute="centerY" secondItem="22o-hL-Eir" secondAttribute="centerY" constant="-2" id="C8G-lI-eCD"/>
-                                                <constraint firstItem="EhH-Pv-6cN" firstAttribute="leading" secondItem="Evn-ew-DCy" secondAttribute="leading" constant="20" id="Eic-FY-RLc"/>
-                                                <constraint firstItem="22o-hL-Eir" firstAttribute="leading" secondItem="EhH-Pv-6cN" secondAttribute="trailing" constant="8" id="sLQ-lm-jbx"/>
-                                                <constraint firstItem="22o-hL-Eir" firstAttribute="centerY" secondItem="Evn-ew-DCy" secondAttribute="centerY" id="xVh-cQ-uWU"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="cell_image" destination="22o-hL-Eir" id="5Ck-Bg-btt"/>
-                                            <outlet property="cell_title" destination="EhH-Pv-6cN" id="j29-td-hse"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="kHy-bM-mbY" id="Pja-KF-CMh"/>
-                                    <outlet property="delegate" destination="kHy-bM-mbY" id="dri-YL-gzx"/>
-                                </connections>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="vQq-L9-jJh" firstAttribute="top" secondItem="Xx9-11-W8s" secondAttribute="bottom" id="7M6-gA-PFx"/>
-                            <constraint firstAttribute="height" secondItem="Xx9-11-W8s" secondAttribute="height" multiplier="4" id="7pe-fN-uYd"/>
-                            <constraint firstItem="Lcu-5B-Uxs" firstAttribute="bottom" secondItem="vQq-L9-jJh" secondAttribute="bottom" id="GrM-jX-4Ur"/>
-                            <constraint firstItem="vQq-L9-jJh" firstAttribute="leading" secondItem="Lcu-5B-Uxs" secondAttribute="leading" id="Pdp-Xk-2ju"/>
-                            <constraint firstItem="Xx9-11-W8s" firstAttribute="leading" secondItem="Lcu-5B-Uxs" secondAttribute="leading" id="R9u-QD-Dni"/>
-                            <constraint firstItem="Lcu-5B-Uxs" firstAttribute="trailing" secondItem="vQq-L9-jJh" secondAttribute="trailing" id="YnW-8q-RIV"/>
-                            <constraint firstItem="Xx9-11-W8s" firstAttribute="top" secondItem="Lcu-5B-Uxs" secondAttribute="top" id="cQN-kS-gaa"/>
-                            <constraint firstItem="Lcu-5B-Uxs" firstAttribute="trailing" secondItem="Xx9-11-W8s" secondAttribute="trailing" id="t4l-jw-chA"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Lcu-5B-Uxs"/>
-                    </view>
-                    <navigationItem key="navigationItem" title=" " id="PbO-8k-RKe" userLabel="Title">
-                        <rightBarButtonItems>
-                            <barButtonItem title="Item" image="share" id="TTH-qK-OUe">
-                                <connections>
-                                    <segue destination="Hr4-mN-hMp" kind="show" id="Kgl-Yw-UqH"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem title="Item" image="favorite-unselected" id="xsi-qG-tBI"/>
-                        </rightBarButtonItems>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="img" destination="Xx9-11-W8s" id="nKT-TN-hnf"/>
-                        <outlet property="tableView" destination="vQq-L9-jJh" id="ZQv-vx-0To"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Zvk-3Y-Om2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1847.2" y="125.4872563718141"/>
-        </scene>
         <!--Details Table View Controller-->
         <scene sceneID="VVS-eG-Kg6">
             <objects>
                 <tableViewController storyboardIdentifier="DetailsTableViewController" id="Wrj-RJ-zWG" customClass="DetailsTableViewController" customModule="PilgrimsHouse" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3CH-L9-5eP">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3CH-L9-5eP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -164,7 +38,7 @@
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="906-db-vMO">
                                     <rect key="frame" x="0.0" y="-6" width="375" height="50"/>
-                                    <color key="backgroundColor" red="0.33725490200000002" green="0.70980392160000005" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.16470588235294117" green="0.66666666666666663" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="Uue-sv-Pak"/>
                                     </constraints>
@@ -191,7 +65,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="142"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mOR-hw-cLb" id="Dmx-FK-NNU">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="141.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="room" translatesAutoresizingMaskIntoConstraints="NO" id="hY0-yc-L4H">
@@ -210,13 +84,13 @@
                                         <rect key="frame" x="0.0" y="142" width="375" height="57"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kew-Ek-6IK" id="Yiu-ju-Vks">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="56.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="57"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اسم الاعلان" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Mt-fQ-Bt8">
-                                                    <rect key="frame" x="282" y="16" width="77" height="25"/>
-                                                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="17"/>
-                                                    <color key="textColor" red="0.36470588240000001" green="0.36470588240000001" blue="0.36470588240000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <rect key="frame" x="263" y="16" width="96" height="29.5"/>
+                                                    <fontDescription key="fontDescription" name="DINNextLTArabic-Bold" family="DIN Next LT Arabic" pointSize="20"/>
+                                                    <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -230,13 +104,13 @@
                                         <rect key="frame" x="0.0" y="199" width="375" height="87"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="U2e-1C-1Oi" id="46h-gA-bYb">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="86.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="87"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تفاصيل الغرفه" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFl-c6-Usa">
                                                     <rect key="frame" x="269" y="8" width="90" height="25"/>
                                                     <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="17"/>
-                                                    <color key="textColor" red="0.33725490200000002" green="0.70980392160000005" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.16470588235294117" green="0.66666666666666663" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التفاصيل" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ycq-v7-M3X">
@@ -258,13 +132,13 @@
                                         <rect key="frame" x="0.0" y="286" width="375" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NuV-Aj-Y2I" id="0hM-vc-g1n">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تسهيلات السكن" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gt9-Rm-XjN">
                                                     <rect key="frame" x="254" y="8" width="105" height="25"/>
                                                     <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="17"/>
-                                                    <color key="textColor" red="0.33725490200000002" green="0.70980392160000005" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.1647058824" green="0.66666666669999997" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="air-conditioner" translatesAutoresizingMaskIntoConstraints="NO" id="fmv-My-MDE">
@@ -312,13 +186,13 @@
                                         <rect key="frame" x="0.0" y="416" width="375" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eCF-Xf-rfl" id="vlu-iB-PY5">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="81.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="نوع الغرفه" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcH-gJ-3vn">
                                                     <rect key="frame" x="292" y="8" width="67" height="25"/>
                                                     <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="17"/>
-                                                    <color key="textColor" red="0.33725490200000002" green="0.70980392160000005" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.1647058824" green="0.66666666669999997" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="فرديه" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDH-Rm-ufT">
@@ -340,13 +214,13 @@
                                         <rect key="frame" x="0.0" y="498" width="375" height="87"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hkm-Vf-D6h" id="2T1-i7-aHX">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="86.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="87"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الموقع" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyu-zI-PXI">
                                                     <rect key="frame" x="313" y="8" width="46" height="25"/>
                                                     <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="17"/>
-                                                    <color key="textColor" red="0.33725490200000002" green="0.70980392160000005" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.1647058824" green="0.66666666669999997" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location-icon" translatesAutoresizingMaskIntoConstraints="NO" id="uXs-yg-pQs">
@@ -400,7 +274,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2853.5999999999999" y="154.27286356821591"/>
+            <point key="canvasLocation" x="1846" y="68"/>
         </scene>
         <!--الرسائل-->
         <scene sceneID="six-Qe-9VW">
@@ -565,16 +439,10 @@
     </scenes>
     <resources>
         <image name="air-conditioner" width="64" height="64"/>
-        <image name="default" width="153" height="128"/>
-        <image name="favorite-unselected" width="16" height="16"/>
         <image name="location-icon" width="64" height="64"/>
         <image name="logo" width="1537" height="1537"/>
         <image name="room" width="550" height="412"/>
         <image name="send" width="32" height="32"/>
-        <image name="share" width="16" height="16"/>
         <image name="wifi-icon" width="64" height="64"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="HrQ-rO-8Jf"/>
-    </inferredMetricsTieBreakers>
 </document>
