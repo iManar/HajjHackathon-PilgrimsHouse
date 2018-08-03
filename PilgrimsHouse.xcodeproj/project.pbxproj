@@ -1034,7 +1034,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MAG9DAS3TQ;
+				DEVELOPMENT_TEAM = P422QN8MZP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PilgrimsHouse/ThirdParties/Framework",
@@ -1058,7 +1058,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MAG9DAS3TQ;
+				DEVELOPMENT_TEAM = P422QN8MZP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PilgrimsHouse/ThirdParties/Framework",
