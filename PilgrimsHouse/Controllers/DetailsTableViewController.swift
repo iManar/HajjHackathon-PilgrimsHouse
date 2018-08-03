@@ -22,7 +22,7 @@ class DetailsTableViewController: UITableViewController {
         self.navigationItem.title = "بيت الحجيج"
         self.adImg.sd_setImage(with: URL(string:  (dataModel?.mediaGallery?[0])!), placeholderImage: #imageLiteral(resourceName: "default"))
         adName.text = dataModel?.name
-        adDesc.text = dataModel?.description
+        adDesc.text = dataModel?.descriptionField
         roomLocation.text = dataModel?.address
         roomType.text = dataModel?.houseType
     }
